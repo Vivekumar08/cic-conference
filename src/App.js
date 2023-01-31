@@ -4,7 +4,8 @@ import Navbar from './Components/Navbar';
 import { BrowserRouter as Router, useLocation } from 'react-router-dom'
 import { useEffect } from 'react';
 import withRouter from "./Context/withRouter"
-import AppRoutes from './AppRoutes';
+import "./App.css"
+// import AppRoutes from './AppRoutes';
 import Schedule from './Pages/Schedule';
 import Register from './Pages/Register';
 import Contact from './Pages/Contact';
