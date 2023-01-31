@@ -8,8 +8,8 @@ import { Link } from "react-scroll";
 const Home = () => {
   return (
     <div
-      className="h-screen article w-full bg-gradient-to-tr from-gray-900 to-gray-600 "
-      style={{ backgroundImage: `url(${bg})` }}
+      className="h-screen article w-full   "
+      style={{ backgroundImage: `url(${bg})`, filter: 'contrast(1.25) brightness(.5)' }}
       id="home"
     >
       {/* <img
@@ -17,10 +17,10 @@ const Home = () => {
         alt="CIC Building"
         className="object-fill bg-blend-overlay h-screen w-full -z-50  opacity-60"
       /> */}
-      <div className="w-full bg-white flex justify-center">
-        <div class="downArrow bounce  ">
+      <div className="w-full bg-transparent flex justify-center" style={{filter: 'none' }}>
+        <div class="downArrow bounce items-center ">
           <Link activeClass="active" className="cursor-pointer" smooth spy to="about">
-            <FontAwesomeIcon icon={faChevronDown} />
+            <FontAwesomeIcon icon={faChevronDown} size="3x" className="text-white " />
           </Link>
         </div>
       </div>

@@ -11,6 +11,7 @@ import Register from './Pages/Register';
 import Contact from './Pages/Contact';
 import About from './Pages/About';
 import Home from './Pages/Home';
+import Speakers from './Pages/Speakers';
 
 function App() {
   const helmetContext = {}
@@ -28,11 +29,12 @@ function App() {
       <Router >
         <Navbar />
         <ScrollToTopMount>
-        <Home />
-        <About />
-        <Contact />
-        <Register />
-        <Schedule />
+          <Home />
+          <About />
+          <Speakers />
+          <Schedule />
+          <Register />
+          <Contact />
         </ScrollToTopMount>
       </Router>
     </HelmetProvider>
