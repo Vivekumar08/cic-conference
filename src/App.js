@@ -5,6 +5,11 @@ import { BrowserRouter as Router, useLocation } from 'react-router-dom'
 import { useEffect } from 'react';
 import withRouter from "./Context/withRouter"
 import AppRoutes from './AppRoutes';
+import Schedule from './Pages/Schedule';
+import Register from './Pages/Register';
+import Contact from './Pages/Contact';
+import About from './Pages/About';
+import Home from './Pages/Home';
 
 function App() {
   const helmetContext = {}
@@ -22,7 +27,11 @@ function App() {
       <Router >
         <Navbar />
         <ScrollToTopMount>
-          <AppRoutes />
+        <Home />
+        <About />
+        <Contact />
+        <Register />
+        <Schedule />
         </ScrollToTopMount>
       </Router>
     </HelmetProvider>

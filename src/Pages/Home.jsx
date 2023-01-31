@@ -1,8 +1,7 @@
 import React from "react";
-import  bg  from "../Assets/CIC.jpeg";
 
 const Home = () => {
-  return (<div>{bg}</div>);
+  return <div className="h-screen" id="home">Home</div>;
 };
 
 export default Home;

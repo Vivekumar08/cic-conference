@@ -1,33 +1,58 @@
-import React, {useState, useEffect} from 'react'
+import React, { useState, useEffect } from "react";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
 
-const [prevScrollPos, setPrevScrollPos] = useState(0);
-const [visible, setVisible] = useState(true)
+  const handleScroll = () => {
+    const currentScrollPos = window.scrollY;
 
-const handleScroll = () => {
-    const currentScrollPos = window.scrollY
-
-    if(currentScrollPos > prevScrollPos){
-        setVisible(false)
-    }else{
-        setVisible(true)
+    if (currentScrollPos > prevScrollPos) {
+      setVisible(false);
+    } else {
+      setVisible(true);
     }
 
-    setPrevScrollPos(currentScrollPos)
-}
+    setPrevScrollPos(currentScrollPos);
+  };
 
-useEffect( () => {
-    window.addEventListener('scroll', handleScroll);
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
 
-    return () => window.removeEventListener('scroll', handleScroll)
-})
+    return () => window.removeEventListener("scroll", handleScroll);
+  });
 
-return (
-    <div className={`bg-slate-700 h-14 sticky ${visible ? 'top-0' : ''} `}>
-        Some Company Name
-    </div>
-)
-}
+  return (
+    <nav
+      className={`bg-transparent flex w-full justify-between items-center pt-2 px-5 fixed `}
+    >
+      <div>
+        <span className="md:text-[32px] cursor-pointer capitalize text-[24px]">
+          <Link activeClass="active" smooth spy to="home">
+            Seminar
+          </Link>
+        </span>
+      </div>
+      <div className="flex items-center font-bold md:gap-5 text-[12px]  md:text-[#3d3f44] md:text-base space-x-1 md:justify-between">
+        <Link activeClass="active" smooth spy to="home">
+          Home
+        </Link>
+        <Link activeClass="active" smooth spy to="about">
+          ABOUT
+        </Link>
+        <Link activeClass="active" smooth spy to="schedule">
+          schedule
+        </Link>
+        <Link activeClass="active" smooth spy to="contact">
+          Contact
+        </Link>
+        <Link activeClass="active" smooth spy to="register">
+          Register
+        </Link>
+      </div>
+    </nav>
+  );
+};
 
-export default Navbar
+export default Navbar;
