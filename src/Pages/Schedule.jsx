@@ -105,6 +105,9 @@ const Schedule = () => {
                 hideControls
                 itemWidth={100}
                 cardWidth={300}
+                fontSizes={{
+                    title: "0.8rem",
+                  }}
                 theme={{
                   primary: "blue",
                   secondary: "yellow",
@@ -153,6 +156,9 @@ const Schedule = () => {
                 hideControls
                 itemWidth={100}
                 cardWidth={300}
+                fontSizes={{
+                    title: "0.8rem",
+                  }}
                 theme={{
                   primary: "blue",
                   secondary: "yellow",
