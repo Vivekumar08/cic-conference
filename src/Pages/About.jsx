@@ -4,7 +4,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="h-fit flex flex-col " id="about">
+    <div className="h-fit flex flex-col mt-12 " id="about">
       <div className="font-bold text-5xl justify-center flex mt-12">About</div>
       <div class="inline-flex items-center justify-center w-full">
         <hr class="w-64 h-1 my-4 bg-gray-200 border-0 rounded dark:bg-gray-700" />

@@ -24,12 +24,12 @@ const Navbar = () => {
         colorChange ? "bg-white text-black" : "bg-transparent text-white"
       } `}
     >
-      <div className="nine mt-5">
-        <h1 className="md:text-[32px] cursor-pointer capitalize text-[24px]">
+      <div className="nine">
+        <h1 className=" cursor-pointer capitalize ">
           <Link
             activeClass="active"
             className={`cursor-pointer ${
-              colorChange ? " text-black" : " text-white"
+              colorChange ? " text-black text-[22px]" : " text-white md:text-[32px] text-[24px]"
             }`}
             smooth
             spy
@@ -82,7 +82,7 @@ const Navbar = () => {
           spy
           to="schedule"
         >
-          schedule
+          Schedule
         </Link>
         <Link
           activeClass="active"
