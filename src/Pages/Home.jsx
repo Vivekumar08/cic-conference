@@ -65,7 +65,7 @@ const Home = () => {
         </div>
       </div>
       <div className="h-1 lg:ml-48 items-center flex flex-col lg:flex-row text-white">
-        <p className="items-center flex flex-col lg:flex-row">
+        <p className="items-center flex flex-col lg:flex-row border-white border-4 mb-5  px-2 py-1 rounded-lg ">
           <Link
             activeClass="active"
             className="cursor-pointer"
@@ -76,7 +76,7 @@ const Home = () => {
             Register for the Seminar
           </Link>
         </p>
-        <p className="items-center flex flex-col lg:flex-row">
+        <p className="items-center flex flex-col lg:flex-row border-white border-4 mb-5  px-2 py-1 rounded-lg ">
           <Link
             activeClass="active"
             className="cursor-pointer"

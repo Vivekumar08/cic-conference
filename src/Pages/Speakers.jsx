@@ -16,7 +16,7 @@ const Speakers = () => {
           </div>
         </div>
       </div>
-      <div className="flex lg:flex-row justify-center flex-col ">
+      <div className="flex lg:flex-row ml-6 lg:ml-0 justify-center flex-col ">
         <div className="max-w-xs p-6 rounded-md shadow-md dark:bg-gray-900 dark:text-gray-50">
           <img
             src="https://source.unsplash.com/random/300x300/?1"
