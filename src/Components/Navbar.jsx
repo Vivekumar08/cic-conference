@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-scroll";
+import './Nav.css'
 
 const Navbar = () => {
   const [colorChange, setColorchange] = useState(false);
@@ -19,27 +20,31 @@ const Navbar = () => {
 
   return (
     <nav
-      className={` flex w-full justify-around items-center fixed pt-2 px-5 z-50 ${
+      className={` flex w-full justify-around items-center  fixed pt-2 px-5 z-50 ${
         colorChange ? "bg-white text-black" : "bg-transparent text-white"
       } `}
     >
-      <div>
-        <span className="md:text-[32px] cursor-pointer capitalize text-[24px]">
+      <div className="nine mt-5">
+        <h1 className="md:text-[32px] cursor-pointer capitalize text-[24px]">
           <Link
             activeClass="active"
-            className={`cursor-pointer ${colorChange ? " text-black" : " text-white"}`}
+            className={`cursor-pointer ${
+              colorChange ? " text-black" : " text-white"
+            }`}
             smooth
             spy
             to="home"
           >
-            Seminar
+            National Seminar
           </Link>
-        </span>
+        </h1>
       </div>
-      <div className="flex items-center font-bold md:gap-5 text-[12px]  md:text-[#3d3f44] md:text-base space-x-1 md:justify-between ">
+      <div className="lg:flex items-center hidden  font-bold md:gap-5 text-[12px]  md:text-[#3d3f44] md:text-base space-x-1 md:justify-between ">
         <Link
           activeClass="active"
-          className={`cursor-pointer ${colorChange ? " text-black" : " text-white"}`}
+          className={`cursor-pointer ${
+            colorChange ? " text-black" : " text-white"
+          }`}
           smooth
           spy
           to="home"
@@ -48,7 +53,9 @@ const Navbar = () => {
         </Link>
         <Link
           activeClass="active"
-          className={` cursor-pointer ${colorChange ? " text-black" : " text-white"}`}
+          className={` cursor-pointer ${
+            colorChange ? " text-black" : " text-white"
+          }`}
           smooth
           spy
           to="about"
@@ -57,7 +64,9 @@ const Navbar = () => {
         </Link>
         <Link
           activeClass="active"
-          className={`cursor-pointer ${colorChange ? " text-black" : " text-white"}`}
+          className={`cursor-pointer ${
+            colorChange ? " text-black" : " text-white"
+          }`}
           smooth
           spy
           to="speakers"
@@ -66,7 +75,9 @@ const Navbar = () => {
         </Link>
         <Link
           activeClass="active"
-          className={` cursor-pointer ${colorChange ? " text-black" : " text-white"}`}
+          className={` cursor-pointer ${
+            colorChange ? " text-black" : " text-white"
+          }`}
           smooth
           spy
           to="schedule"
@@ -75,7 +86,9 @@ const Navbar = () => {
         </Link>
         <Link
           activeClass="active"
-          className={` cursor-pointer ${colorChange ? " text-black" : " text-white"}`}
+          className={` cursor-pointer ${
+            colorChange ? " text-black" : " text-white"
+          }`}
           smooth
           spy
           to="register"
@@ -84,7 +97,9 @@ const Navbar = () => {
         </Link>
         <Link
           activeClass="active"
-          className={` cursor-pointer ${colorChange ? " text-black" : " text-white"}`}
+          className={` cursor-pointer ${
+            colorChange ? " text-black" : " text-white"
+          }`}
           smooth
           spy
           to="contact"

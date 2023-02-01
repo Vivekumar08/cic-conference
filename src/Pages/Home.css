@@ -3,9 +3,14 @@
     background-position: center;
     background-size: cover;
     display: grid;
-    place-items: end;
+    filter: "contrast(1.25) brightness(.5)",
+
 }
 
 .header {
     text-align: center;
+}
+
+.logos {
+    aspect-ratio: 16/9;
 }
