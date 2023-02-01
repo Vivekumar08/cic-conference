@@ -91,6 +91,17 @@ const Navbar = () => {
           }`}
           smooth
           spy
+          to="guidelines"
+        >
+          Guidelines
+        </Link>
+        <Link
+          activeClass="active"
+          className={` cursor-pointer ${
+            colorChange ? " text-black" : " text-white"
+          }`}
+          smooth
+          spy
           to="register"
         >
           Register
