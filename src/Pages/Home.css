@@ -14,3 +14,49 @@
 .logos {
     aspect-ratio: 16/9;
 }
+
+/* 5 */
+.btn-5 {
+    /* width: 130px; */
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    background: #f08080;
+    background: linear-gradient(0deg, #f08080 0%, #f4978e 100%);
+}
+
+.btn-5:hover {
+    color: #f08080;
+    background: transparent;
+    box-shadow: none;
+}
+
+.btn-5:before,
+.btn-5:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: #f08080;
+    box-shadow:
+        -1px -1px 5px 0px #fff,
+        7px 7px 20px 0px #0003,
+        4px 4px 5px 0px #0002;
+    transition: 400ms ease all;
+}
+
+.btn-5:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+}
+
+.btn-5:hover:before,
+.btn-5:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+}

@@ -28,8 +28,8 @@ const Navbar = () => {
         <h1 className=" cursor-pointer capitalize ">
           <Link
             activeClass="active"
-            className={`cursor-pointer ${
-              colorChange ? " text-black text-[22px]" : " text-white md:text-[32px] text-[24px]"
+            className={`cursor-pointer font-Rubik ${
+              colorChange ? " text-black text-[22px] glow_text" : " text-black md:text-[32px] text-[24px] glow"
             }`}
             smooth
             spy
