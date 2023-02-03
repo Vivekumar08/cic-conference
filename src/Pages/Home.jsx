@@ -23,10 +23,10 @@ const Home = () => {
       }}
       id="home"
     >
-      <div className=" flex justify-between w-4/5 ml-4 md:ml-auto mr-auto mt-12 gap-1">
-        <img src={new_du} alt="" className="h-14  md:h-28  " />
-        <img src={cic} alt="" className="h-16 rounded-md md:h-28" />
-        <img src={driv} alt="" className="md:h-28 h-16" />
+      <div className=" flex justify-between w-4/5 ml-4 md:ml-auto mr-auto mb-5 md:mb-0 mt-12 gap-1">
+        <img src={new_du} alt="" className="h-12  md:h-28  " />
+        <img src={cic} alt="" className="h-14 rounded-md md:h-28" />
+        <img src={driv} alt="" className="md:h-28 h-12" />
       </div>
       <div className=" mr-auto ml-auto lg:w-4/5 text-justify flex flex-col text-white font-bold">
         <h1 className=" capitalize ml-auto mr-auto  md:text-[32px] text-[24px]">
@@ -73,7 +73,7 @@ const Home = () => {
           </span>
         </div>
       </div>
-      <div className="lg:ml-36 justify-between mr-32 mt-5 gap-10 flex flex-col lg:flex-row text-white">
+      <div className="lg:ml-36 justify-center  mt-5 gap-10 flex flex-col lg:flex-row text-white">
         <p className="items-center flex flex-col   mb-5   py-1 ">
           <a
             href="https://forms.gle/G51MAPTDvVAFgkPJ8"
@@ -83,7 +83,7 @@ const Home = () => {
           >
             <span className="p-2 md:ml-0 ml-1">Registration for Participation</span>
           </a>
-          <ol className="bg-white rounded-lg list-decimal mt-3 md:m-2 ml-16 ">
+          <ol className="bg-white rounded-lg list-decimal mt-3 md:m-2 w-10/12 ml-auto mr-auto flex flex-col ">
             <p className="bg-[#662F87] rounded-t-md flex justify-center font-bold text-white">
               Registration Fee
             </p>
@@ -113,7 +113,7 @@ const Home = () => {
           >
             <span className="p-2 px-10">Abstract Submission</span>
           </a>
-          <ol className="bg-white rounded-lg list-decimal mt-3 w-4/5 md:m-2 ml-16">
+          <ol className="bg-white rounded-lg list-decimal mt-3 md:w-4/5 w-10/12 ml-auto mr-auto md:m-2">
             <p className="bg-[#662F87] rounded-t-md flex justify-center font-bold text-white">
               Guidelines
             </p>

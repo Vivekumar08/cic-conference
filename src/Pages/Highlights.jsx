@@ -4,7 +4,7 @@ const Highlights = () => {
   return (
     <div className="h-fit flex flex-col mt-12 mb-5" id="highlights">
         <span className="mt-12"></span>
-      <div className="rounded-2xl shadow-md flex flex-col justify-center ml-auto mr-auto md:w-1/2 w-3/4 dark:bg-gray-900 dark:text-gray-100">
+      <div className="rounded-2xl shadow-md flex flex-col justify-center ml-auto mr-auto md:w-1/2 w-4/5 dark:bg-gray-900 dark:text-gray-100">
         <h3 className="md:text-2xl text-lg w-full flex justify-center rounded-t-2xl h-16 items-center  font-bold text-white bg-[#662F87]">
 
           Highlights of Seminar
