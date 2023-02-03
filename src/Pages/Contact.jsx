@@ -66,15 +66,15 @@ const Contact = () => {
                 <a href="/">
                   <FontAwesomeIcon icon={faFacebook} size="2x" />
                 </a>
-                <a href="/">
+                <a href="https://www.linkedin.com/company/cluster-innovation-centre-university-of-delhi-education/">
                   <FontAwesomeIcon icon={faLinkedin} size="2x" />
                 </a>
-                <a href="/">
+                <a href="https://twitter.com/CIC_DelhiUniv">
                   <FontAwesomeIcon icon={faTwitter} size="2x" />
                 </a>
-                <a href="/">
+                {/* <a href="/">
                   <FontAwesomeIcon icon={faInstagram} size="2x" />
-                </a>
+                </a> */}
               </div>
               <div className="col  lg:ml-0 md:mt-20 mt-10 col-md-4 mb-30">
                 <div className="flex items-center  ">
