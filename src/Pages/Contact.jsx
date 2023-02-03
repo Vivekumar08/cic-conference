@@ -15,7 +15,7 @@ import { Link } from "react-scroll";
 
 const Contact = () => {
   return (
-    <footer className="bg-slate-800" id="contact">
+    <footer className="bg-[#8848ad]" id="contact">
       <div className="container">
         <div className="footer-cta pt-5 pb-5">
           <div className="flex flex-col lg:flex-row w-full ml-auto mr-auto lg:justify-around">
@@ -31,13 +31,13 @@ const Contact = () => {
                   </h4>
                 </div>
               </div>
-              <div className="cta-text  text-sm">
+              <div className="cta-text text-[#e4e4e4]  text-sm">
                 <span>Cluster Innovation Centre, University of Delhi</span>
               </div>
               <div className="mt-5">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.769250502355!2d77.21261156792303!3d28.6922528451807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd94c8b62999%3A0xae0071f78605288f!2sCluster%20Innovation%20Centre%2C%20University%20of%20Delhi!5e0!3m2!1sen!2sin!4v1675268169269!5m2!1sen!2sin"
-                //   width="600"
+                  //   width="600"
                   height="250"
                   style={{ border: "0" }}
                   allowfullscreen=""
@@ -53,12 +53,25 @@ const Contact = () => {
                 <FontAwesomeIcon icon={faPhone} className="text-white" />
                 <div>
                   <h4 className="text-white mb-1 font-bold text-base lg:text-xl ml-3 ">
-                    Call Us
+                    Contact Us
                   </h4>
                 </div>
               </div>
-              <div className="cta-text   text-sm">
-                <span>+91- XXXXX-XXXXX</span>
+              <div className=" flex cta-text flex-col text-[#c8c2c2]  text-sm">
+                <span>
+                  {" "}
+                  <span className="text-white font-semibold">
+                    Anurag Saini:{" "}
+                  </span>{" "}
+                  +91- 9891802557
+                </span>{" "}
+                <br />
+                <span>
+                  <span className="text-white font-semibold">
+                    Vijeta Chaudhary:{" "}
+                  </span>{" "}
+                  +91- 9871376181
+                </span>
               </div>
               <div className="footer-social-icon mt-12">
                 <span>Follow us</span>
@@ -88,7 +101,7 @@ const Contact = () => {
                     </h4>
                   </div>
                 </div>
-                <div className="cta-text text-sm ml-6 ">
+                <div className="cta-text text-[#e4e4e4] text-sm ml-6 ">
                   <span>seminarppp2023@cic.du.ac.in</span>
                 </div>
               </div>
@@ -178,7 +191,13 @@ const Contact = () => {
               <div className="copyright-text">
                 <p>
                   Copyright &copy; 2023, All Right Reserved
-                  <a href="cic.du.ac.in" className="ml-1 hover:text-red-500 font-bold" target={"_blank"} >CIC</a>
+                  <a
+                    href="cic.du.ac.in"
+                    className="ml-1 hover:text-red-500 font-bold"
+                    target={"_blank"}
+                  >
+                    CIC
+                  </a>
                 </p>
               </div>
             </div>

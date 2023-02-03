@@ -4,7 +4,7 @@ import driv from "../Assets/Logo_DRIIV__1.png";
 import cic from "../Assets/cic.jpeg";
 import new_du from "../Assets/new_du.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Typewriter from "typewriter-effect";
+// import Typewriter from "typewriter-effect";
 
 import {
   faCalendarDays,
@@ -20,42 +20,45 @@ const Home = () => {
       className="h-screen article w-full   "
       style={{
         backgroundImage: `url(${bg})`,
-        // filter: "contrast(1.25) brightness(.5)",
       }}
       id="home"
     >
-      <div className=" flex  justify-between w-4/5 ml-36 mt-24">
+      <div className=" flex   justify-between w-4/5 ml-36 mt-12">
         <img src={new_du} alt="" className="h-28" />
         <img src={cic} alt="" className="rounded-md h-28" />
-        <img src={driv} alt="" className="h-28 w-" />
+        <img src={driv} alt="" className="h-28 " />
       </div>
-      <div className="flex flex-col mb-5 md:mb-0 mt-0 md:w-  lg:w-4/5 ml-auto mr-auto text-justify text-white  ">
+      <div className=" mr-auto ml-auto lg:w-4/5 text-justify flex flex-col text-white font-bold">
+        <h1 className=" capitalize ml-auto mr-auto  md:text-[32px] text-[24px]">
+          National Seminar
+        </h1>
+        <span className="font-semibold text-2xl flex justify-center ">on</span>
+        {/* </div> */}
+        {/* <div className="flex flex-col mb-5 md:mb-0  lg:w-4/5 ml-auto mr-auto text-justify text-white  "> */}
         <p className="font-bold lg:text-3xl">
-          <Typewriter
-            options={{
-              strings: [
-                "Innovation in Higher Education through Public - Private - Partnership (PPP) Model",
-              ],
-              autoStart: true,
-              loop: true,
-              deleteSpeed: 100,
-              delay: 100,
-            }}
-          />
+          Innovation in Higher Education through Public - Private - Partnership
+          (PPP) Model
         </p>
-        <p className="lg:text-lg text-sm mt-2">
-          We invite you to be part of the intellectual community and contribute
-          as Oral presenter/Poster presenter/participant{" "}
+        <p className="lg:text-lg font-light text-sm mt-2">
+          Cluster Innovation Centre, University of Delhi in association with
+          Delhi Research Implementation and Innovation (DRIIV) - Effective
+          Education (an initiative of the office of the Principal Scientific
+          Adviser to the Govt. of India), is organizing a national seminar on
+          Public Private Partnership (PPP) model in Higher Education. Individuals or groups
+          from academia, research community and industry are invited to participate / present
+          their research work, field experiences, innovative pratices and
+          theoretical positions related to Public Private Partnership (PPP) model in Higher
+          Education.
         </p>
       </div>
-      <div className=" flex flex-col justify-center ml-auto mr-auto w-4/5 mt-16 md:mt-2 md:mb-5 h-2">
-        <div className="items-start md:items-center flex flex-col m-2  lg:flex-row">
+      <div className=" flex flex-col md:flex-row justify-between ml-auto mr-auto w-4/5 h-fit ">
+        <div className="items-start md:items-center flex flex-col lg:flex-row">
           <FontAwesomeIcon
             icon={faCalendarDays}
             size="2x"
             className="text-white "
           />
-          <p className="md:ml-2 mt-2 text-sm lg:text-lg  text-white">
+          <p className="md:ml-2  text-sm lg:text-lg  text-white">
             13th - 15th March 2023
           </p>
         </div>
@@ -65,33 +68,37 @@ const Home = () => {
             size="2x"
             className="text-white "
           />
-          <span className="md:ml-5 mt-2 text-sm lg:text-lg text-white">
+          <span className="md:ml-5  text-sm lg:text-lg text-white">
             Cluster Innovation Centre, University of Delhi, Delhi.
           </span>
         </div>
       </div>
-      <div className="h-1 lg:ml-48 items-center flex flex-col lg:flex-row mt-5 text-white">
-        <p className="items-center flex flex-col lg:flex-row  mb-5  mx-2  px-2 py-1 ">
-          <Link
-            activeClass="active"
-            className="cursor-pointer custom-btn btn-5"
-            smooth
-            spy
-            to="register"
+      <div className="lg:ml-36 justify-between mr-32  gap-10 flex flex-col lg:flex-row text-white">
+        <p className="items-center flex flex-col lg:flex-row  mb-5   py-1 ">
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfUb3HArSpehUoPc04CA99J24ECkDkkUx7nvcjo2yVyS81lqQ/viewform"
+            className="custom-btn btn-5"
+            target={"_blank"}
+            rel="noreferrer"
           >
             <span className="p-2">Register for the Seminar</span>
-          </Link>
+          </a>
+          <ul>
+            <li></li>
+          </ul>
         </p>
-        <p className="items-center flex flex-col lg:flex-row mb-5 mx-2  px-2 py-1 ">
-          <Link
-            activeClass="active"
-            className="cursor-pointer custom-btn btn-5 "
-            smooth
-            spy
-            to="register"
+        <p className="items-center flex flex-col lg:flex-row mb-5  py-1 ">
+          <a
+            href="https://forms.gle/G51MAPTDvVAFgkPJ8"
+            className="custom-btn btn-5"
+            target={"_blank"}
+            rel="noreferrer"
           >
-            <span className="p-2">Call for Papers</span>
-          </Link>
+            <span className="p-2">Call for Abstracts</span>
+          </a>
+          <ul>
+            <li></li>
+          </ul>
         </p>
       </div>
       <div

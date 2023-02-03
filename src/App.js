@@ -6,14 +6,15 @@ import { useEffect } from 'react';
 import withRouter from "./Context/withRouter"
 import "./App.css"
 // import AppRoutes from './AppRoutes';
-import Schedule from './Pages/Schedule';
-import Register from './Pages/Register';
+// import Schedule from './Pages/Schedule';
+// import Register from './Pages/Register';
 import Contact from './Pages/Contact';
 import About from './Pages/About';
 import Home from './Pages/Home';
-import Speakers from './Pages/Speakers';
-import Guidelines from './Pages/Guidelines';
-import Committee from './Pages/Committee';
+// import Speakers from './Pages/Speakers';
+// import Guidelines from './Pages/Guidelines';
+import Highlights from './Pages/Highlights';
+// import Committee from './Pages/Committee';
 
 function App() {
   const helmetContext = {}
@@ -33,11 +34,12 @@ function App() {
         <ScrollToTopMount>
           <Home />
           <About />
-          <Speakers />
-          <Schedule />
-          <Guidelines />
-          <Register />
-          <Committee />
+          {/* <Speakers /> */}
+          {/* <Schedule /> */}
+          <Highlights />
+          {/* <Guidelines /> */}
+          {/* <Register /> */}
+          {/* <Committee /> */}
           <Contact />
         </ScrollToTopMount>
       </Router>

@@ -1,11 +1,12 @@
-import { faDiamond } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faDiamond } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
 const About = () => {
   return (
     <div className="h-fit flex flex-col mt-12 " id="about">
-      <div className="font-bold text-5xl justify-center flex mt-12">About</div>
+        <span className="mt-12"></span>
+      {/* <div className="font-bold text-5xl justify-center flex mt-12">About</div>
       <div class="inline-flex items-center justify-center w-full">
         <hr class="w-64 h-1 my-4 bg-gray-200 border-0 rounded dark:bg-gray-700" />
         <div class="absolute px-4 -translate-x-1/2 bg-white left-1/2 dark:bg-gray-900">
@@ -24,10 +25,10 @@ const About = () => {
           theoretical positions related to Public Private Partnership (PPP) in
           Education.
         </p>
-      </div>
+      </div> */}
       <div className="rounded-2xl shadow-md flex flex-col justify-center ml-auto mr-auto w-1/2  dark:bg-gray-900 dark:text-gray-100">
         <h3 className="text-2xl w-full flex justify-center rounded-t-2xl h-16 items-center  font-bold text-white bg-[#662F87]">
-          Themes
+          Themes for Seminar
         </h3>
         <ul className="list-disc p-5 flex flex-col ml-auto mr-auto text-lg  font-semibold m-3">
           <li className="mt-1">Emerging models, research and practices of PPP in education</li>

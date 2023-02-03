@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-scroll";
-import './Nav.css'
+import "./Nav.css";
 
 const Navbar = () => {
   const [colorChange, setColorchange] = useState(false);
@@ -20,11 +20,11 @@ const Navbar = () => {
 
   return (
     <nav
-      className={` flex w-full justify-around items-center  fixed pt-2 px-5 z-50 ${
+      className={` flex w-full justify-end items-center   fixed pt-2 px-5 z-50 ${
         colorChange ? "bg-white text-black" : "bg-transparent text-white"
       } `}
     >
-      <div className="nine">
+      {/* <div className="nine">
         <h1 className=" cursor-pointer capitalize ">
           <Link
             activeClass="active"
@@ -38,7 +38,7 @@ const Navbar = () => {
             National Seminar
           </Link>
         </h1>
-      </div>
+      </div> */}
       <div className="lg:flex items-center hidden  font-bold md:gap-5 text-[12px]  md:text-[#3d3f44] md:text-base space-x-1 md:justify-between ">
         <Link
           activeClass="active"
@@ -60,9 +60,42 @@ const Navbar = () => {
           spy
           to="about"
         >
-          About
+          Theme
         </Link>
         <Link
+          activeClass="active"
+          className={` cursor-pointer ${
+            colorChange ? " text-black" : " text-white"
+          }`}
+          smooth
+          spy
+          to="highlights"
+        >
+          Highlights
+        </Link>
+        {/* <Link
+          activeClass="active"
+          className={` cursor-pointer ${
+            colorChange ? " text-black" : " text-white"
+          }`}
+          smooth
+          spy
+          to="guidelines"
+        >
+          Timelines
+        </Link> */}
+        <Link
+          activeClass="active"
+          className={` cursor-pointer ${
+            colorChange ? " text-black" : " text-white"
+          }`}
+          smooth
+          spy
+          to="contact"
+        >
+          Contact
+        </Link>
+        {/* <Link
           activeClass="active"
           className={`cursor-pointer ${
             colorChange ? " text-black" : " text-white"
@@ -84,17 +117,7 @@ const Navbar = () => {
         >
           Schedule
         </Link>
-        <Link
-          activeClass="active"
-          className={` cursor-pointer ${
-            colorChange ? " text-black" : " text-white"
-          }`}
-          smooth
-          spy
-          to="guidelines"
-        >
-          Guidelines
-        </Link>
+        
         <Link
           activeClass="active"
           className={` cursor-pointer ${
@@ -117,17 +140,7 @@ const Navbar = () => {
         >
           Committee
         </Link>
-        <Link
-          activeClass="active"
-          className={` cursor-pointer ${
-            colorChange ? " text-black" : " text-white"
-          }`}
-          smooth
-          spy
-          to="contact"
-        >
-          Contact
-        </Link>
+         */}
       </div>
     </nav>
   );
