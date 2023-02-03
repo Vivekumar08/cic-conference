@@ -26,11 +26,11 @@ const About = () => {
           Education.
         </p>
       </div> */}
-      <div className="rounded-2xl shadow-md flex flex-col justify-center ml-auto mr-auto w-1/2  dark:bg-gray-900 dark:text-gray-100">
+      <div className="rounded-2xl shadow-md flex flex-col justify-center ml-auto mr-auto md:w-1/2 w-3/4  dark:bg-gray-900 dark:text-gray-100">
         <h3 className="text-2xl w-full flex justify-center rounded-t-2xl h-16 items-center  font-bold text-white bg-[#662F87]">
           Themes for Seminar
         </h3>
-        <ul className="list-disc p-5 flex flex-col ml-auto mr-auto text-lg  font-semibold m-3">
+        <ul className="list-disc p-5 flex flex-col ml-auto mr-auto md:text-lg text-base  font-semibold m-3">
           <li className="mt-1">
             Emerging models, research and practices of PPP in education
           </li>

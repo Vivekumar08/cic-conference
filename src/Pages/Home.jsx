@@ -23,10 +23,10 @@ const Home = () => {
       }}
       id="home"
     >
-      <div className=" flex   justify-between w-4/5 ml-auto mr-auto mt-12">
-        <img src={new_du} alt="" className="h-28" />
-        <img src={cic} alt="" className="rounded-md h-28" />
-        <img src={driv} alt="" className="h-28 " />
+      <div className=" flex justify-between w-4/5 ml-4 md:ml-auto mr-auto mt-12 gap-1">
+        <img src={new_du} alt="" className="h-14  md:h-28  " />
+        <img src={cic} alt="" className="h-16 rounded-md md:h-28" />
+        <img src={driv} alt="" className="md:h-28 h-16" />
       </div>
       <div className=" mr-auto ml-auto lg:w-4/5 text-justify flex flex-col text-white font-bold">
         <h1 className=" capitalize ml-auto mr-auto  md:text-[32px] text-[24px]">
@@ -35,11 +35,11 @@ const Home = () => {
         <span className="font-semibold text-2xl flex justify-center ">on</span>
         {/* </div> */}
         {/* <div className="flex flex-col mb-5 md:mb-0  lg:w-4/5 ml-auto mr-auto text-justify text-white  "> */}
-        <p className="font-bold lg:text-3xl">
+        <p className="font-bold lg:text-3xl text-lg md:ml-0 ml-6 md:mr-0 mr-10">
           Innovation in Higher Education through Public - Private - Partnership
           (PPP) Model
         </p>
-        <p className="lg:text-lg font-light text-sm mt-2">
+        <p className="lg:text-lg font-light text-sm mt-2 md:ml-0 ml-6 md:mr-0 mr-10">
           Cluster Innovation Centre, University of Delhi in association with
           Delhi Research Implementation and Innovation (DRIIV) - Effective
           Education (an initiative of the office of the Principal Scientific
@@ -62,7 +62,7 @@ const Home = () => {
             13th - 15th March 2023
           </p>
         </div>
-        <div className="items-start md:items-center flex lg:flex-row m-2 flex-col">
+        <div className="items-start md:items-center flex lg:flex-row mt-2 md:m-2 flex-col">
           <FontAwesomeIcon
             icon={faMapLocation}
             size="2x"
@@ -73,7 +73,7 @@ const Home = () => {
           </span>
         </div>
       </div>
-      <div className="lg:ml-36 justify-between mr-32 mt-5  gap-10 flex flex-col lg:flex-row text-white">
+      <div className="lg:ml-36 justify-between mr-32 mt-5 gap-10 flex flex-col lg:flex-row text-white">
         <p className="items-center flex flex-col   mb-5   py-1 ">
           <a
             href="https://forms.gle/G51MAPTDvVAFgkPJ8"
@@ -81,9 +81,9 @@ const Home = () => {
             target={"_blank"}
             rel="noreferrer"
           >
-            <span className="p-2">Registration for Participation</span>
+            <span className="p-2 md:ml-0 ml-1">Registration for Participation</span>
           </a>
-          <ol className="bg-white rounded-lg list-decimal mt-3 ">
+          <ol className="bg-white rounded-lg list-decimal mt-3 md:m-2 ml-16 ">
             <p className="bg-[#662F87] rounded-t-md flex justify-center font-bold text-white">
               Registration Fee
             </p>
@@ -99,7 +99,7 @@ const Home = () => {
               Research Scholar/Students: Rs. 750/- (Early bird registration:
               600/-)
             </li>
-            <p className="bg-[#662F87] rounded-md flex justify-center font-bold text-white">
+            <p className="bg-[#662F87] rounded-md flex justify-center text-sm lg:text-base md:pl-0 pl-2  font-bold text-white">
               Early bird registration discount valid till 20th February 2023
             </p>
           </ol>
@@ -113,7 +113,7 @@ const Home = () => {
           >
             <span className="p-2 px-10">Abstract Submission</span>
           </a>
-          <ol className="bg-white rounded-lg list-decimal mt-3 w-4/5">
+          <ol className="bg-white rounded-lg list-decimal mt-3 w-4/5 md:m-2 ml-16">
             <p className="bg-[#662F87] rounded-t-md flex justify-center font-bold text-white">
               Guidelines
             </p>
