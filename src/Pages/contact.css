@@ -90,7 +90,7 @@ ul {
     margin-bottom: 40px;
     position: relative;
   }
-  .footer-widget-heading h3::before,.footer-social-icon span::before {
+  .footer-widget-heading h3::before {
     content: "";
     position: absolute;
     left: 0;

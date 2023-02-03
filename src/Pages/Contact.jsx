@@ -93,7 +93,7 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
+            <div className=" mb-30">
               <div className="footer-widget ml-12 lg:ml-0 mt-8 lg:mt-0">
                 <div className="footer-widget-heading">
                   <h3>Useful Links</h3>

@@ -13,12 +13,12 @@ const Register = () => {
         </div>
       </div>
       <div className="flex gap-7 md:mt-8 ">
-        <a href="http://" className="custom-btn btn-3 ">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfUb3HArSpehUoPc04CA99J24ECkDkkUx7nvcjo2yVyS81lqQ/viewform" className="custom-btn btn-3 ">
           <span className="px-4 ">
             Registration for Oral / Poster Presentation
           </span>
         </a>
-        <a href="http://" className="custom-btn btn-3 ">
+        <a href="https://forms.gle/G51MAPTDvVAFgkPJ8" className="custom-btn btn-3 ">
           <span className="px-4">Registration for Participants</span>
         </a>
       </div>
