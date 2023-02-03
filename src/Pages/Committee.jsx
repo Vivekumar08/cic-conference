@@ -15,7 +15,7 @@ const Committee = () => {
   return (
     <div className="h-screen " id="committee">
       <div className="font-bold text-5xl justify-center flex mt-12">
-        Committee
+       Organizing Committee
       </div>
       <div class="inline-flex items-center justify-center w-full">
         <hr class="w-64 h-1 my-4 bg-gray-200 border-0 rounded dark:bg-gray-700" />
