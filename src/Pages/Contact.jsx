@@ -200,8 +200,8 @@ const Contact = () => {
           <div className="row">
             <div className="col-xl-6 col-lg-6 text-center text-lg-left">
               <div className="copyright-text">
-                <p>
-                  Copyright &copy; 2023, All Right Reserved
+                <p className="items-center">
+                  <span>Copyright &copy; 2023, All Right Reserved</span>
                   <a
                     href="cic.du.ac.in"
                     className="ml-1 hover:text-red-500 font-bold"
@@ -209,6 +209,10 @@ const Contact = () => {
                   >
                     CIC
                   </a>
+                  <span className="flex md:justify-end justify-center md:mr-0 mr-5">
+                    {" "}
+                    Designed by Vivek Kumar & Priyanshu Sisodiya
+                  </span>
                 </p>
               </div>
             </div>
