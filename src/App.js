@@ -13,6 +13,7 @@ import About from './Pages/About';
 import Home from './Pages/Home';
 import Speakers from './Pages/Speakers';
 import Guidelines from './Pages/Guidelines';
+import Committee from './Pages/Committee';
 
 function App() {
   const helmetContext = {}
@@ -36,6 +37,7 @@ function App() {
           <Schedule />
           <Guidelines />
           <Register />
+          <Committee />
           <Contact />
         </ScrollToTopMount>
       </Router>

@@ -1,6 +1,6 @@
 import React from "react";
 import bg from "../Assets/cic.png";
-import du from "../Assets/du.png";
+import driv from "../Assets/Logo_DRIIV.png";
 import cic from "../Assets/cic.jpeg";
 import new_du from "../Assets/new_du.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -24,18 +24,13 @@ const Home = () => {
       }}
       id="home"
     >
-      {/* <img
-        src={bg}
-        alt="CIC Building"
-        className="object-fill bg-blend-overlay h-screen w-full -z-50  opacity-60"
-      /> */}
-      <div className="logos  flex h-14 justify-between w-1/3 lg:ml-48 ml-12 mt-24">
-        <img src={du} alt="" />
+      <div className="logos  flex h-14 justify-between w-1/3 lg:ml-36 ml-12 mt-24">
         <img src={new_du} alt="" />
         <img src={cic} alt="" className="rounded-md" />
+        <img src={driv} alt="" />
       </div>
-      <div className="flex flex-col text-base lg:text-2xl mb-5 md:mb-0 lg:w-2/3 w-2/3 ml-auto mr-auto h-6 justify-center text-justify text-white  ">
-        <p>
+      <div className="flex flex-col mb-5 md:mb-0 mt-0  w-4/5 ml-auto mr-auto text-justify text-white  ">
+        <p className="font-bold lg:text-3xl">
           <Typewriter
             options={{
               strings: [
@@ -53,7 +48,7 @@ const Home = () => {
           as paper presenter/ participant{" "}
         </p>
       </div>
-      <div className=" flex flex-col justify-center ml-auto mr-auto w-2/3 mt-16 md:mt-2 md:mb-5 h-2">
+      <div className=" flex flex-col justify-center ml-auto mr-auto w-4/5 mt-16 md:mt-2 md:mb-5 h-2">
         <div className="items-start md:items-center flex flex-col m-2  lg:flex-row">
           <FontAwesomeIcon
             icon={faCalendarDays}
@@ -71,7 +66,7 @@ const Home = () => {
             className="text-white "
           />
           <span className="md:ml-5 mt-2 text-sm lg:text-lg text-white">
-            Cluster Innovation Centre, Univarsity of Delhi, Delhi.
+            Cluster Innovation Centre, University of Delhi, Delhi.
           </span>
         </div>
       </div>
