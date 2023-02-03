@@ -17,13 +17,13 @@ import { Link } from "react-scroll";
 const Home = () => {
   return (
     <div
-      className="h-screen article w-full   "
+      className="h-fit article w-full   "
       style={{
         backgroundImage: `url(${bg})`,
       }}
       id="home"
     >
-      <div className=" flex   justify-between w-4/5 ml-36 mt-12">
+      <div className=" flex   justify-between w-4/5 ml-auto mr-auto mt-12">
         <img src={new_du} alt="" className="h-28" />
         <img src={cic} alt="" className="rounded-md h-28" />
         <img src={driv} alt="" className="h-28 " />
@@ -51,7 +51,7 @@ const Home = () => {
           Public Private Partnership (PPP) model in Higher Education.
         </p>
       </div>
-      <div className=" flex flex-col md:flex-row justify-between ml-auto mr-auto w-4/5 h-fit ">
+      <div className=" flex flex-col md:flex-row justify-between ml-auto mr-auto w-4/5 h-fit mt-8 ">
         <div className="items-start md:items-center flex flex-col lg:flex-row">
           <FontAwesomeIcon
             icon={faCalendarDays}
@@ -73,7 +73,7 @@ const Home = () => {
           </span>
         </div>
       </div>
-      <div className="lg:ml-36 justify-between mr-32  gap-10 flex flex-col lg:flex-row text-white">
+      <div className="lg:ml-36 justify-between mr-32 mt-5  gap-10 flex flex-col lg:flex-row text-white">
         <p className="items-center flex flex-col   mb-5   py-1 ">
           <a
             href="https://forms.gle/G51MAPTDvVAFgkPJ8"
