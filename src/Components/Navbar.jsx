@@ -60,7 +60,7 @@ const Navbar = () => {
           spy
           to="about"
         >
-          Theme
+          Themes
         </Link>
         <Link
           activeClass="active"

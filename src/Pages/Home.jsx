@@ -44,11 +44,11 @@ const Home = () => {
           Delhi Research Implementation and Innovation (DRIIV) - Effective
           Education (an initiative of the office of the Principal Scientific
           Adviser to the Govt. of India), is organizing a national seminar on
-          Public Private Partnership (PPP) model in Higher Education. Individuals or groups
-          from academia, research community and industry are invited to participate / present
-          their research work, field experiences, innovative pratices and
-          theoretical positions related to Public Private Partnership (PPP) model in Higher
-          Education.
+          Public Private Partnership (PPP) model in Higher Education.
+          Individuals or groups from academia, research community and industry
+          are invited to participate / present their research work, field
+          experiences, innovative pratices and theoretical positions related to
+          Public Private Partnership (PPP) model in Higher Education.
         </p>
       </div>
       <div className=" flex flex-col md:flex-row justify-between ml-auto mr-auto w-4/5 h-fit ">
@@ -74,32 +74,61 @@ const Home = () => {
         </div>
       </div>
       <div className="lg:ml-36 justify-between mr-32  gap-10 flex flex-col lg:flex-row text-white">
-        <p className="items-center flex flex-col lg:flex-row  mb-5   py-1 ">
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSfUb3HArSpehUoPc04CA99J24ECkDkkUx7nvcjo2yVyS81lqQ/viewform"
-            className="custom-btn btn-5"
-            target={"_blank"}
-            rel="noreferrer"
-          >
-            <span className="p-2">Register for the Seminar</span>
-          </a>
-          <ul>
-            <li></li>
-          </ul>
-        </p>
-        <p className="items-center flex flex-col lg:flex-row mb-5  py-1 ">
+        <p className="items-center flex flex-col   mb-5   py-1 ">
           <a
             href="https://forms.gle/G51MAPTDvVAFgkPJ8"
             className="custom-btn btn-5"
             target={"_blank"}
             rel="noreferrer"
           >
-            <span className="p-2">Call for Abstracts</span>
+            <span className="p-2">Register for the Seminar</span>
           </a>
-          <ul>
-            <li></li>
-          </ul>
+          <ol className="bg-white rounded-lg list-decimal mt-3 ">
+            <p className="bg-[#662F87] rounded-t-md flex justify-center font-bold text-white">
+              Registration Fee
+            </p>
+            <li className="text-sm text-[#444444] p-2 pl-4 ml-8  ">
+              Teaching Faculty : Rs. 1500/- (Early bird registration: Rs.
+              1200/-)
+            </li>
+            <li className="text-sm text-[#444444] p-2 pl-4 ml-8  ">
+              Participant from Industry: Rs. 2500/- (Early bird registration:
+              2000/-)
+            </li>
+            <li className="text-sm text-[#444444] p-2 pl-4 ml-8  ">
+              Research Scholar/Students: Rs. 750/- (Early bird registration:
+              600/-)
+            </li>
+            <p className="bg-[#662F87] rounded-md flex justify-center font-bold text-white">
+              Early bird registration discount valid till 20th February 2023
+            </p>
+          </ol>
         </p>
+        <div className="items-center flex flex-col  mb-5  py-1 ">
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfUb3HArSpehUoPc04CA99J24ECkDkkUx7nvcjo2yVyS81lqQ/viewform"
+            className="custom-btn btn-5 "
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            <span className="p-2 px-10">Call for Abstracts</span>
+          </a>
+          <ol className="bg-white rounded-lg list-decimal mt-3 w-4/5">
+            <p className="bg-[#662F87] rounded-t-md flex justify-center font-bold text-white">
+              Guidelines
+            </p>
+            <li className="text-sm text-[#444444] p-2 pl-4 ml-8  ">
+              Last date for abstract submission: 24th February 2023
+            </li>
+            <li className="text-sm text-[#444444] p-2 pl-4 ml-8  ">
+              Registration is mandatory for all accepted abstracts
+            </li>
+            <li className="text-sm flex-wrap text-[#444444] p-2 pl-4 ml-8  ">
+              Submit an abstract of 500 words indicating the theme, title,
+              objectives, methodology and findings
+            </li>
+          </ol>
+        </div>
       </div>
       <div
         className="w-full  items-end bg-transparent flex   justify-center"

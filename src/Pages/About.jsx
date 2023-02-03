@@ -5,7 +5,7 @@ import React from "react";
 const About = () => {
   return (
     <div className="h-fit flex flex-col mt-12 " id="about">
-        <span className="mt-12"></span>
+      <span className="mt-12"></span>
       {/* <div className="font-bold text-5xl justify-center flex mt-12">About</div>
       <div class="inline-flex items-center justify-center w-full">
         <hr class="w-64 h-1 my-4 bg-gray-200 border-0 rounded dark:bg-gray-700" />
@@ -31,14 +31,20 @@ const About = () => {
           Themes for Seminar
         </h3>
         <ul className="list-disc p-5 flex flex-col ml-auto mr-auto text-lg  font-semibold m-3">
-          <li className="mt-1">Emerging models, research and practices of PPP in education</li>
+          <li className="mt-1">
+            Emerging models, research and practices of PPP in education
+          </li>
           <li className="mt-2">NEP 2020 and PPP in higher education</li>
-          <li className="mt-2">Issues and challenges in India for PPP in education</li>
-          <li className="mt-2">Global best practices of PPP model in education</li>
+          <li className="mt-2">
+            Issues and challenges in India for PPP in education
+          </li>
+          <li className="mt-2">
+            Global best practices of PPP model in education
+          </li>
           <li className="mt-2">
             Exemplar case studies of PPP Model in sectors other than education
           </li>
-          Educational innovations through PPP
+          <li className="mt-2">Educational innovations through PPP</li>
           <li className="mt-2">SDGs and PPP in Education</li>
         </ul>
       </div>

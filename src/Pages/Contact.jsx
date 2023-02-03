@@ -97,11 +97,11 @@ const Contact = () => {
                   />
                   <div>
                     <h4 className="text-white mb-1 font-bold text-base lg:text-xl ml-3 ">
-                      For any query, feel free mail us
+                      For any query, feel free to mail us
                     </h4>
                   </div>
                 </div>
-                <div className="cta-text text-[#e4e4e4] text-sm ml-6 ">
+                <div className="cta-text text-[#e4e4e4] text-sm ml-8 ">
                   <span>seminarppp2023@cic.du.ac.in</span>
                 </div>
               </div>
@@ -131,10 +131,10 @@ const Contact = () => {
                       spy
                       to="about"
                     >
-                      About
+                      Themes
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link
                       activeClass="active"
                       className={`cursor-pointer`}
@@ -144,8 +144,8 @@ const Contact = () => {
                     >
                       Speakers
                     </Link>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <Link
                       activeClass="active"
                       className={` cursor-pointer`}
@@ -155,8 +155,8 @@ const Contact = () => {
                     >
                       schedule
                     </Link>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <Link
                       activeClass="active"
                       className={` cursor-pointer `}
@@ -165,6 +165,17 @@ const Contact = () => {
                       to="register"
                     >
                       Register
+                    </Link>
+                  </li> */}
+                  <li>
+                    <Link
+                      activeClass="active"
+                      className={` cursor-pointer `}
+                      smooth
+                      spy
+                      to="highlights"
+                    >
+                      Highlights
                     </Link>
                   </li>
                   <li>
