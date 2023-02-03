@@ -81,7 +81,7 @@ const Home = () => {
             target={"_blank"}
             rel="noreferrer"
           >
-            <span className="p-2">Register for the Seminar</span>
+            <span className="p-2">Registration for Participation</span>
           </a>
           <ol className="bg-white rounded-lg list-decimal mt-3 ">
             <p className="bg-[#662F87] rounded-t-md flex justify-center font-bold text-white">
@@ -111,7 +111,7 @@ const Home = () => {
             target={"_blank"}
             rel="noreferrer"
           >
-            <span className="p-2 px-10">Call for Abstracts</span>
+            <span className="p-2 px-10">Abstract Submission</span>
           </a>
           <ol className="bg-white rounded-lg list-decimal mt-3 w-4/5">
             <p className="bg-[#662F87] rounded-t-md flex justify-center font-bold text-white">
@@ -124,7 +124,7 @@ const Home = () => {
               Registration is mandatory for all accepted abstracts
             </li>
             <li className="text-sm flex-wrap text-[#444444] p-2 pl-4 ml-8  ">
-              Submit an abstract of 500 words indicating the theme, title,
+              Submit an abstract of max 500 words indicating the theme, title,
               objectives, methodology and findings
             </li>
           </ol>
