@@ -1,6 +1,6 @@
 import React from "react";
 import bg from "../Assets/cic.png";
-import driv from "../Assets/Logo_DRIIV.png";
+import driv from "../Assets/Logo_DRIIV__1.png";
 import cic from "../Assets/cic.jpeg";
 import new_du from "../Assets/new_du.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -24,12 +24,12 @@ const Home = () => {
       }}
       id="home"
     >
-      <div className="logos  flex h-14 justify-between w-1/3 lg:ml-36 ml-12 mt-24">
-        <img src={new_du} alt="" />
-        <img src={cic} alt="" className="rounded-md" />
-        <img src={driv} alt="" />
+      <div className=" flex  justify-between w-4/5 ml-36 mt-24">
+        <img src={new_du} alt="" className="h-28" />
+        <img src={cic} alt="" className="rounded-md h-28" />
+        <img src={driv} alt="" className="h-28 w-" />
       </div>
-      <div className="flex flex-col mb-5 md:mb-0 mt-0  w-4/5 ml-auto mr-auto text-justify text-white  ">
+      <div className="flex flex-col mb-5 md:mb-0 mt-0 md:w-  lg:w-4/5 ml-auto mr-auto text-justify text-white  ">
         <p className="font-bold lg:text-3xl">
           <Typewriter
             options={{
@@ -45,7 +45,7 @@ const Home = () => {
         </p>
         <p className="lg:text-lg text-sm mt-2">
           We invite you to be part of the intellectual community and contribute
-          as paper presenter/ participant{" "}
+          as Oral presenter/Poster presenter/participant{" "}
         </p>
       </div>
       <div className=" flex flex-col justify-center ml-auto mr-auto w-4/5 mt-16 md:mt-2 md:mb-5 h-2">

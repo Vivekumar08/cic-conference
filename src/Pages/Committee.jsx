@@ -13,7 +13,7 @@ import React from "react";
 
 const Committee = () => {
   return (
-    <div className="h-screen " id="committee">
+    <div className="h-fit " id="committee">
       <div className="font-bold text-5xl justify-center flex mt-12">
         Committee
       </div>

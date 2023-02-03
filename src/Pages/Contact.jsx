@@ -44,7 +44,7 @@ const Contact = () => {
                   allowfullscreen=""
                   loading="lazy"
                   referrerpolicy="no-referrer-when-downgrade"
-                  className="rounded-lg md:w-[600px] w-fit"
+                  className="rounded-lg md:w-[400px] w-fit"
                   title="CIC"
                 ></iframe>
               </div>
