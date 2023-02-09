@@ -91,6 +91,17 @@ const Navbar = () => {
           }`}
           smooth
           spy
+          to="committee"
+        >
+          Committee
+        </Link>
+        <Link
+          activeClass="active"
+          className={` cursor-pointer ${
+            colorChange ? " text-black" : " text-white"
+          }`}
+          smooth
+          spy
           to="contact"
         >
           Contact
@@ -129,17 +140,7 @@ const Navbar = () => {
         >
           Register
         </Link>
-        <Link
-          activeClass="active"
-          className={` cursor-pointer ${
-            colorChange ? " text-black" : " text-white"
-          }`}
-          smooth
-          spy
-          to="committee"
-        >
-          Committee
-        </Link>
+        
          */}
       </div>
     </nav>

@@ -181,6 +181,17 @@ const Contact = () => {
                   <li>
                     <Link
                       activeClass="active"
+                      className={` cursor-pointer `}
+                      smooth
+                      spy
+                      to="committee"
+                    >
+                      Committee
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      activeClass="active"
                       className={` cursor-pointer`}
                       smooth
                       spy
