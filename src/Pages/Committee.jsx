@@ -33,7 +33,6 @@ const Committee = () => {
             Prof. Shobha Bagai
           </p>
           <p className="dark:text-gray-400">Chairperson</p>
-          <p className="dark:text-gray-400">Cluster Innovation Centre</p>
         </div>
         <div className="flex flex-col justify-center m-8 text-center">
           <img
@@ -45,7 +44,6 @@ const Committee = () => {
             Prof. Jyoti Sharma
           </p>
           <p className="dark:text-gray-400">Convenor </p>
-          <p className="dark:text-gray-400">National Seminar</p>
         </div>
         <div className="flex flex-col justify-center m-8 text-center">
           <img
@@ -56,12 +54,11 @@ const Committee = () => {
           <p className="text-xl font-semibold leading-tight">
             Prof. Pankaj Tyagi
           </p>
-          <p className="dark:text-gray-400">Convener Organizing Committee</p>
-          <p className="dark:text-gray-400">National Seminar</p>
+          <p className="dark:text-gray-400">Convenor Organizing Committee</p>
         </div>
       </div>
       <div className="font-bold text-lg md:text-2xl justify-center text-center mx-10 flex mt-12">
-        Organizing Committee Member
+        Organizing Committee Members
       </div>
       <div className="flex flex-row flex-wrap justify-center">
         {CommitteeMembers.map((title, i) => {
