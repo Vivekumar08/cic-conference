@@ -81,46 +81,12 @@ const Committee = () => {
                 className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500"
                 src={title.img}
               />
-              <p className="text-xl font-semibold leading-tight">{title.Name}</p>
+              <p className="text-xl font-semibold leading-tight">
+                {title.Name}
+              </p>
             </div>
           );
         })}
-        {/* <div className="flex flex-col justify-center m-8 text-center">
-          <img
-            alt=""
-            className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500"
-            src={Dorje}
-          />
-          <p className="text-xl font-semibold leading-tight">Dr. Dorje Dawa</p>
-        </div>
-        <div className="flex flex-col justify-center m-8 text-center">
-          <img
-            alt=""
-            className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500"
-            src={asani}
-          />
-          <p className="text-xl font-semibold leading-tight">
-            Dr. Asani Bhaduri
-          </p>
-        </div>
-        <div className="flex flex-col justify-center m-8 text-center">
-          <img
-            alt=""
-            className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500"
-            src={Nirmal}
-          />
-          <p className="text-xl font-semibold leading-tight">
-            Dr. Nirmal Yadav
-          </p>
-        </div>
-        <div className="flex flex-col justify-center m-8 text-center">
-          <img
-            alt=""
-            className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500"
-            src={Rai}
-          />
-          <p className="text-xl font-semibold leading-tight">Mrs. Shobha Rai</p>
-        </div> */}
       </div>
     </div>
   );
