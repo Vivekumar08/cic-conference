@@ -9,7 +9,7 @@ import Vijeta from "./Assets/Vijeta_Choudhary.jpeg";
 import Jagit from "./Assets/Jagjit_Kaur.jpeg";
 import jogeshwar from "./Assets/jogeshwar.jpg";
 import Sanjeewani from "./Assets/sanjeevani.jpg";
-import User from "./Assets/User.png";
+import Manish from "./Assets/Manish.png";
 
 
 
@@ -99,7 +99,7 @@ export const CommitteeMembers = [
     },
     {
         Name: 'Dr. Manish Kumar',
-        img: User
+        img: Manish
     },
     {
         Name: 'Dr. Nirmal Yadav',
@@ -110,19 +110,19 @@ export const CommitteeMembers = [
         img: Sanjeewani
     },
     {
-        Name: 'Mr. Anurag Saini',
-        img: Anurag
-    },
-    {
         Name: 'Mrs. Shobha Rai',
         img: Rai
     },
     {
-        Name: 'Dr. Jagit Kaur',
+        Name: 'Mr. Anurag Saini',
+        img: Anurag
+    },
+    {
+        Name: 'Dr. Jagjit Kaur',
         img: Jagit
     },
     {
-        Name: 'Dr. Vijeta Chaudhary',
+        Name: 'Dr. Vijeta Choudhary',
         img: Vijeta
     },
 ]

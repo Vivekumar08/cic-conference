@@ -60,14 +60,8 @@ const Committee = () => {
           <p className="dark:text-gray-400">National Seminar</p>
         </div>
       </div>
-      <div className="font-bold text-2xl md:text-5xl justify-center text-center mx-10 flex mt-12">
+      <div className="font-bold text-lg md:text-2xl justify-center text-center mx-10 flex mt-12">
         Organizing Committee Member
-      </div>
-      <div class="inline-flex items-center justify-center mt-2 w-full">
-        <hr class="w-64 h-1 my-4 bg-gray-200 border-0 rounded dark:bg-gray-700" />
-        <div class="absolute px-4 -translate-x-1/2 bg-white left-1/2 dark:bg-gray-900">
-          <FontAwesomeIcon icon={faDiamond} />
-        </div>
       </div>
       <div className="flex flex-row flex-wrap justify-center">
         {CommitteeMembers.map((title, i) => {
