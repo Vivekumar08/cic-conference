@@ -22,7 +22,7 @@ const Committee = () => {
           <FontAwesomeIcon icon={faDiamond} />
         </div>
       </div>
-      <div className="flex flex-row flex-wrap-reverse justify-center">
+      <div className="flex flex-row flex-wrap justify-center">
         <div className="flex flex-col justify-center m-8 text-center">
           <img
             alt=""
