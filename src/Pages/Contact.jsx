@@ -65,13 +65,6 @@ const Contact = () => {
                   </span>{" "}
                   +91- 9891802557
                 </span>{" "}
-                <br />
-                <span>
-                  <span className="text-white font-semibold">
-                    Vijeta Chaudhary:{" "}
-                  </span>{" "}
-                  +91- 9871376181
-                </span>
               </div>
               <div className="footer-social-icon mt-12">
                 <span>Follow us</span>
