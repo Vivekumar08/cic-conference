@@ -7,6 +7,7 @@ import Anjani from "./Assets/Anjani_Verma.jpg";
 import Anurag from "./Assets/Anurag_Saini.jpg";
 import Vijeta from "./Assets/Vijeta_Choudhary.jpeg";
 import Jagit from "./Assets/Jagjit_Kaur.jpeg";
+import hps from "./Assets/HPS.jpeg";
 import jogeshwar from "./Assets/jogeshwar.jpg";
 import Sanjeewani from "./Assets/sanjeevani.jpg";
 import Manish from "./Assets/Manish.png";
@@ -92,6 +93,10 @@ export const CommitteeMembers = [
     {
         Name: 'Dr. Geetanjali Kala',
         img: Geetanjali
+    },
+    {
+        Name: 'Dr. Harendra Pal Singh',
+        img: hps
     },
     {
         Name: 'Dr. J.S. Purohit',
