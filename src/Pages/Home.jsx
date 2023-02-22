@@ -81,7 +81,9 @@ const Home = () => {
             target={"_blank"}
             rel="noreferrer"
           >
-            <span className="p-2 md:ml-0 ml-1">Registration for Participation</span>
+            <span className="p-2 md:ml-0 ml-1">
+              Registration for Participation
+            </span>
           </a>
           <ol className="bg-white rounded-lg list-decimal mt-3 md:m-2 w-10/12 ml-auto mr-auto flex flex-col ">
             <p className="bg-[#662F87] rounded-t-md flex justify-center font-bold text-white">
@@ -117,8 +119,8 @@ const Home = () => {
             <p className="bg-[#662F87] rounded-t-md flex justify-center font-bold text-white">
               Guidelines
             </p>
-            <li className="text-sm text-[#444444] p-2 pl-4 ml-8  ">
-              Last date for abstract submission: 1st March 2023
+            <li className=" text-sm text-[#444444] p-2 pl-4 ml-8  ">
+                Last date for abstract submission:  {" "}  <s className="text-red-500">24th February 2023</s> {" "}  1st March 2023
             </li>
             <li className="text-sm text-[#444444] p-2 pl-4 ml-8  ">
               Registration is mandatory for all accepted abstracts
