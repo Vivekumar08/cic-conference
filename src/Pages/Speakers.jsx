@@ -5,6 +5,9 @@ import "./speakers.css";
 import yogesh from "../Assets/Yogesh_Singh_vc.jpg";
 import jitendra from "../Assets/Union-Minister-Jitendra-Singh.jpg";
 import shobha from "../Assets/Shobha_Bagai.jpg";
+import Dinesh from "../Assets/Dinesh_Singh.png";
+import LS from "../Assets/LS_Shashidharan.jpg";
+import Rajive from "../Assets/Prof_Rajive_Kumar.jpg";
 
 const Speakers = () => {
   return (
@@ -64,7 +67,7 @@ const Speakers = () => {
           />
           <div className="mt-6 mb-2">
             <span className="block text-xs font-medium tracking-widest uppercase dark:text-blue-400">
-              Patron
+              Chairperson
             </span>
             <h2 className="text-xl font-semibold tracking-wide">
               Prof. Shobha Bagai
@@ -84,32 +87,42 @@ const Speakers = () => {
           <FontAwesomeIcon icon={faDiamond} />
         </div>
       </div>
-      <div className="relative w-4/5 ml-auto mr-auto flex gap-4 py-6 overflow-x-auto">
-        <img
-          className="h-48 aspect-video rounded-sm object-cover object-center dark:bg-gray-500"
-          src="https://source.unsplash.com/random/241x361/?1"
-          alt=" 1"
-        />
-        <img
-          className="h-48 aspect-video rounded-sm object-cover object-center dark:bg-gray-500"
-          src="https://source.unsplash.com/random/241x361/?2"
-          alt=" 2"
-        />
-        <img
-          className="h-48 aspect-video rounded-sm object-cover object-center dark:bg-gray-500"
-          src="https://source.unsplash.com/random/241x361/?3"
-          alt=" 3"
-        />
-        <img
-          className="h-48 aspect-video rounded-sm object-cover object-center dark:bg-gray-500"
-          src="https://source.unsplash.com/random/241x361/?4"
-          alt=" 4"
-        />
-        <img
-          className="h-48 aspect-video rounded-sm object-cover object-center dark:bg-gray-500"
-          src="https://source.unsplash.com/random/241x361/?5"
-          alt=" 5"
-        />
+      <div className="w-4/5 ml-auto mr-auto flex gap-4 py-6 overflow-x-auto h-64">
+        <div className="flex flex-col h-28 aspect-video">
+          <img
+            className=" h-48 aspect-square rounded-sm object-cover object-center dark:bg-gray-500"
+            src={Dinesh}
+            alt=" 1"
+          />
+          <h1 className="flex justify-center text-base md:text-xl font-bold ">
+            Prof. Dinesh Singh
+          </h1>
+        </div>
+        <div className="flex flex-col h-28 aspect-video">
+          <img
+            className="h-48 aspect-square rounded-sm object-cover object-center dark:bg-gray-500"
+            src={LS}
+            alt=" 1"
+          />
+          <h1 className="flex justify-center text-base md:text-xl font-bold ">
+            Prof. L S Shashidhara
+          </h1>
+        </div>
+        <div className="flex flex-col h-28 aspect-video">
+          <img
+            className=" h-48 aspect-square rounded-sm object-cover object-center dark:bg-gray-500"
+            src={Rajive}
+            alt=" 1"
+          />
+          <h1 className="flex justify-center text-base md:text-xl font-bold ">
+            Prof. Rajive Kumar
+          </h1>
+        </div>
+        <div className="flex flex-col h-28 aspect-video ">
+          <h1 className="flex justify-center align-middle pt-16 text-base md:text-xl font-bold ">
+            To be updated
+          </h1>
+        </div>
       </div>
     </div>
   );

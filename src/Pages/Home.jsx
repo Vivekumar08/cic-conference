@@ -118,7 +118,7 @@ const Home = () => {
               Guidelines
             </p>
             <li className="text-sm text-[#444444] p-2 pl-4 ml-8  ">
-              Last date for abstract submission: 24th February 2023
+              Last date for abstract submission: 1st March 2023
             </li>
             <li className="text-sm text-[#444444] p-2 pl-4 ml-8  ">
               Registration is mandatory for all accepted abstracts

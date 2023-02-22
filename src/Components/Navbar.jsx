@@ -97,6 +97,17 @@ const Navbar = () => {
         </Link>
         <Link
           activeClass="active"
+          className={`cursor-pointer ${
+            colorChange ? " text-black" : " text-white"
+          }`}
+          smooth
+          spy
+          to="speakers"
+        >
+          Speakers
+        </Link>
+        <Link
+          activeClass="active"
           className={` cursor-pointer ${
             colorChange ? " text-black" : " text-white"
           }`}

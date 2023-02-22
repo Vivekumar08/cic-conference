@@ -11,7 +11,7 @@ import "./App.css"
 import Contact from './Pages/Contact';
 import About from './Pages/About';
 import Home from './Pages/Home';
-// import Speakers from './Pages/Speakers';
+import Speakers from './Pages/Speakers';
 // import Guidelines from './Pages/Guidelines';
 import Highlights from './Pages/Highlights';
 import Committee from './Pages/Committee';
@@ -34,9 +34,9 @@ function App() {
         <ScrollToTopMount>
           <Home />
           <About />
-          {/* <Speakers /> */}
           {/* <Schedule /> */}
           <Highlights />
+          <Speakers />
           {/* <Guidelines /> */}
           {/* <Register /> */}
           <Committee />
