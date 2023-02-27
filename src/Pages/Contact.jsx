@@ -188,7 +188,7 @@ const Contact = () => {
             </div>
             {/* </div> */}
             <div>
-              <div className="footer-widget ml-12 lg:ml-0 mt-8 lg:mt-0">
+              <div className="footer-widget ml-8 lg:ml-0 mt-8 lg:mt-0">
                 <div className="footer-widget-heading ml-4">
                   <h3>Tech Team</h3>
                 </div>
