@@ -118,8 +118,8 @@ ul {
 }
 
 .footer-widget ul li {
-  display: inline-block;
-  float: left;
+  /* display: inline-block; */
+  /* float: left; */
   width: 100%;
   margin-bottom: 12px;
 }

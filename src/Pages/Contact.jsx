@@ -12,6 +12,7 @@ import {
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-scroll";
+import { TechTeam } from "../Content";
 
 const Contact = () => {
   return (
@@ -99,113 +100,117 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            <div className=" mb-30">
-              <div className="footer-widget  ml-12 lg:ml-0 mt-8 lg:mt-0">
-                <div className="footer-widget-heading">
-                  <h3>Useful Links</h3>
-                </div>
-                <ul>
-                  <li>
-                    <Link
-                      activeClass="active"
-                      className={`cursor-pointer`}
-                      smooth
-                      spy
-                      to="home"
-                    >
-                      Home
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      activeClass="active"
-                      className={` cursor-pointer`}
-                      smooth
-                      spy
-                      to="about"
-                    >
-                      Themes
-                    </Link>
-                  </li>
+            {/* <div className=" mb-30"> */}
+            <div className="footer-widget  ml-12 lg:ml-0 mt-8 lg:mt-0">
+              <div className="footer-widget-heading">
+                <h3>Useful Links</h3>
+              </div>
+              <ul>
+                <li>
+                  <Link
+                    activeClass="active"
+                    className={`cursor-pointer`}
+                    smooth
+                    spy
+                    to="home"
+                  >
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    activeClass="active"
+                    className={` cursor-pointer`}
+                    smooth
+                    spy
+                    to="about"
+                  >
+                    Themes
+                  </Link>
+                </li>
 
-                  {/* <li>
-                    <Link
-                      activeClass="active"
-                      className={` cursor-pointer`}
-                      smooth
-                      spy
-                      to="schedule"
-                    >
-                      schedule
-                    </Link>
-                  </li> */}
-                  {/* <li>
-                    <Link
-                      activeClass="active"
-                      className={` cursor-pointer `}
-                      smooth
-                      spy
-                      to="register"
-                    >
-                      Register
-                    </Link>
-                  </li> */}
-                  <li>
-                    <Link
-                      activeClass="active"
-                      className={` cursor-pointer `}
-                      smooth
-                      spy
-                      to="highlights"
-                    >
-                      Highlights
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      activeClass="active"
-                      className={`cursor-pointer`}
-                      smooth
-                      spy
-                      to="speakers"
-                    >
-                      Speakers
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      activeClass="active"
-                      className={` cursor-pointer capitalize `}
-                      smooth
-                      spy
-                      to="schedule"
-                    >
-                      schedule
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      activeClass="active"
-                      className={` cursor-pointer `}
-                      smooth
-                      spy
-                      to="committee"
-                    >
-                      Committee
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      activeClass="active"
-                      className={` cursor-pointer`}
-                      smooth
-                      spy
-                      to="contact"
-                    >
-                      Contact
-                    </Link>
-                  </li>
-                </ul>
+                <li>
+                  <Link
+                    activeClass="active"
+                    className={` cursor-pointer `}
+                    smooth
+                    spy
+                    to="highlights"
+                  >
+                    Highlights
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    activeClass="active"
+                    className={`cursor-pointer`}
+                    smooth
+                    spy
+                    to="speakers"
+                  >
+                    Speakers
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    activeClass="active"
+                    className={` cursor-pointer capitalize `}
+                    smooth
+                    spy
+                    to="schedule"
+                  >
+                    schedule
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    activeClass="active"
+                    className={` cursor-pointer `}
+                    smooth
+                    spy
+                    to="committee"
+                  >
+                    Committee
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    activeClass="active"
+                    className={` cursor-pointer`}
+                    smooth
+                    spy
+                    to="contact"
+                  >
+                    Contact
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            {/* </div> */}
+            <div>
+              <div className="footer-widget  lg:ml-0 mt-8 lg:mt-0">
+                <div className="footer-widget-heading ml-4">
+                  <h3>Tech Team</h3>
+                </div>
+                <div className="flex flex-col">
+                  {TechTeam.map((title, i) => {
+                    return (
+                      <div
+                        className="flex flex-col justify-center m-2 text-center"
+                        key={i}
+                      >
+                        <img
+                          alt={title.Name}
+                          className="self-center flex-shrink-0 w-20 h-20 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500"
+                          src={title.img}
+                        />
+                        <p className="text-base text-white font-semibold leading-tight">
+                          {title.Name}
+                        </p>
+                      </div>
+                    );
+                  })}
+                </div>
               </div>
             </div>
           </div>

@@ -12,6 +12,7 @@ import jogeshwar from "./Assets/jogeshwar.jpg";
 import Sanjeewani from "./Assets/sanjeevani.jpg";
 import Manish from "./Assets/Manish.png";
 import priyanshu from "./Assets/priyanshu.jpeg";
+import vivek from "./Assets/vivek.jpeg";
 
 
 
@@ -93,7 +94,7 @@ export const Dayz = [
 export const TechTeam = [
     {
         Name: "Vivek Kumar",
-        img: priyanshu
+        img: vivek
     },
     {
         Name: "Priyanshu Sisodiya",
