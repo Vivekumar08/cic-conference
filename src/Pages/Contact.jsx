@@ -192,7 +192,7 @@ const Contact = () => {
                 <div className="footer-widget-heading ml-4">
                   <h3>Tech Team</h3>
                 </div>
-                <div className="flex md:flex-col">
+                <div className="flex md:flex-col justify-evenly">
                   {TechTeam.map((title, i) => {
                     return (
                       <div
