@@ -224,15 +224,15 @@ const Contact = () => {
                 <p className="items-center">
                   <span>Copyright &copy; 2023, All Right Reserved</span>
                   <a
-                    href="cic.du.ac.in"
+                    href="http://cic.du.ac.in"
                     className="ml-1 hover:text-red-500 font-bold"
                     target={"_blank"}
                   >
                     CIC
                   </a>
-                  <span className="flex md:justify-end justify-center md:mr-4 mr-5 font-bold">
+                  <span className="flex md:justify-end justify-center md:mr-4 mr-5 ">
                     {" "}
-                    Designed / Created by: - Vivek Kumar & Priyanshu Sisodiya
+                    Designed / Created by: -<strong> Vivek Kumar & Priyanshu Sisodiya</strong>
                   </span>
                 </p>
               </div>
