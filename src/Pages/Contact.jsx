@@ -192,11 +192,11 @@ const Contact = () => {
                 <div className="footer-widget-heading ml-4">
                   <h3>Tech Team</h3>
                 </div>
-                <div className="flex flex-col">
+                <div className="flex md:flex-col">
                   {TechTeam.map((title, i) => {
                     return (
                       <div
-                        className="flex  md:flex-col justify-center m-2 text-center"
+                        className="flex flex-col justify-center m-2 text-center"
                         key={i}
                       >
                         <img
