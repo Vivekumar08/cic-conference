@@ -201,7 +201,7 @@ const Contact = () => {
                       >
                         <img
                           alt={title.Name}
-                          className="self-center flex-shrink-0 w-20 h-20 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500"
+                          className="self-center flex-shrink-0 md:w-20 md:h-20 w-28 h-28 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500"
                           src={title.img}
                         />
                         <p className="text-base text-white font-semibold leading-tight">
