@@ -227,6 +227,7 @@ const Contact = () => {
                     href="http://cic.du.ac.in"
                     className="ml-1 hover:text-red-500 font-bold"
                     target={"_blank"}
+                    rel={"noreferrer"}
                   >
                     CIC
                   </a>
