@@ -196,7 +196,7 @@ const Contact = () => {
                   {TechTeam.map((title, i) => {
                     return (
                       <div
-                        className="flex flex-col justify-center m-2 text-center"
+                        className="flex  md:flex-col justify-center m-2 text-center"
                         key={i}
                       >
                         <img
