@@ -230,7 +230,7 @@ const Contact = () => {
                   >
                     CIC
                   </a>
-                  <span className="flex md:justify-end justify-center md:mr-4 mr-5">
+                  <span className="flex md:justify-end justify-center md:mr-4 mr-5 font-bold">
                     {" "}
                     Designed / Created by: - Vivek Kumar & Priyanshu Sisodiya
                   </span>
