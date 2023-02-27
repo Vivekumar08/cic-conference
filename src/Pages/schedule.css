@@ -2,8 +2,9 @@ button {
     margin: 10px;
 }
 
-.custom-btn {
+.custom-btn1 {
     /* width: 130px; */
+    background: linear-gradient(315deg, #8848ad 0%, #662F87 100%);
     height: 40px;
     color: #fff;
     border-radius: 5px;

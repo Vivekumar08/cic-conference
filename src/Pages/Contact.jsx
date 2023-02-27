@@ -100,7 +100,7 @@ const Contact = () => {
               </div>
             </div>
             <div className=" mb-30">
-              <div className="footer-widget ml-12 lg:ml-0 mt-8 lg:mt-0">
+              <div className="footer-widget  ml-12 lg:ml-0 mt-8 lg:mt-0">
                 <div className="footer-widget-heading">
                   <h3>Useful Links</h3>
                 </div>
@@ -127,17 +127,7 @@ const Contact = () => {
                       Themes
                     </Link>
                   </li>
-                  {/* <li>
-                    <Link
-                      activeClass="active"
-                      className={`cursor-pointer`}
-                      smooth
-                      spy
-                      to="speakers"
-                    >
-                      Speakers
-                    </Link>
-                  </li> */}
+
                   {/* <li>
                     <Link
                       activeClass="active"
@@ -169,6 +159,28 @@ const Contact = () => {
                       to="highlights"
                     >
                       Highlights
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      activeClass="active"
+                      className={`cursor-pointer`}
+                      smooth
+                      spy
+                      to="speakers"
+                    >
+                      Speakers
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      activeClass="active"
+                      className={` cursor-pointer capitalize `}
+                      smooth
+                      spy
+                      to="schedule"
+                    >
+                      schedule
                     </Link>
                   </li>
                   <li>
@@ -213,9 +225,9 @@ const Contact = () => {
                   >
                     CIC
                   </a>
-                  <span className="flex md:justify-end justify-center md:mr-0 mr-5">
+                  <span className="flex md:justify-end justify-center md:mr-4 mr-5">
                     {" "}
-                    Designed by Vivek Kumar & Priyanshu Sisodiya
+                    Designed / Created by: - Vivek Kumar & Priyanshu Sisodiya
                   </span>
                 </p>
               </div>

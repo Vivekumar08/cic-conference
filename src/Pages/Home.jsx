@@ -12,6 +12,7 @@ import {
   faMapLocation,
 } from "@fortawesome/free-solid-svg-icons";
 import "./Home.css";
+import "./button.css";
 import { Link } from "react-scroll";
 
 const Home = () => {
@@ -50,6 +51,17 @@ const Home = () => {
           experiences, innovative pratices and theoretical positions related to
           Public Private Partnership (PPP) model in Higher Education.
         </p>
+      </div>
+      <div className="container1">
+        <div className="btn15">
+          <a
+            href="https://drive.google.com/file/d/1ri474Ckr5XRkKdoE12GWbTMzYB4LwDoy/view?usp=share_link"
+            target={"_blank"}
+            rel="noopener noreferrer"
+          >
+            Concept Note of Seminar
+          </a>
+        </div>
       </div>
       <div className=" flex flex-col md:flex-row justify-between ml-auto mr-auto w-4/5 h-fit mt-8 ">
         <div className="items-start md:items-center flex flex-col lg:flex-row">
@@ -120,7 +132,8 @@ const Home = () => {
               Guidelines
             </p>
             <li className=" text-sm text-[#444444] p-2 pl-4 ml-8  ">
-                Last date for abstract submission:  {" "}  <s className="text-red-500">24th February 2023</s> {" "}  1st March 2023
+              Last date for abstract submission:{" "}
+              <s className="text-red-500">24th February 2023</s> 1st March 2023
             </li>
             <li className="text-sm text-[#444444] p-2 pl-4 ml-8  ">
               Registration is mandatory for all accepted abstracts

@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 import withRouter from "./Context/withRouter"
 import "./App.css"
 // import AppRoutes from './AppRoutes';
-// import Schedule from './Pages/Schedule';
+import Schedule from './Pages/Schedule';
 // import Register from './Pages/Register';
 import Contact from './Pages/Contact';
 import About from './Pages/About';
@@ -34,9 +34,9 @@ function App() {
         <ScrollToTopMount>
           <Home />
           <About />
-          {/* <Schedule /> */}
           <Highlights />
           <Speakers />
+          <Schedule />
           {/* <Guidelines /> */}
           {/* <Register /> */}
           <Committee />

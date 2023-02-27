@@ -36,8 +36,8 @@ const Schedule = () => {
               <>
                 <div className="ml-5" key={i}>
                   <button
-                    className="custom-btn btn-13"
-                    onClick={() => setDay_call(title.day)}
+                    className="custom-btn1 btn-13"
+                    onClick={() => setDay_call(title.id)}
                   >
                     {title.day}
                   </button>
@@ -53,10 +53,11 @@ const Schedule = () => {
               <Chrono
                 mode="VERTICAL_ALTERNATING"
                 cardHeight={"auto"}
+                cardWidth={520}
                 focusActiveItemOnLoad
-                hideControls
+                // hideControls
+                slideShow
                 itemWidth={100}
-                cardWidth={300}
                 theme={{
                   primary: "blue",
                   secondary: "yellow",
@@ -66,27 +67,38 @@ const Schedule = () => {
                   titleColorActive: "blue",
                 }}
                 fontSizes={{
-                  title: "0.8rem",
+                  title: "1rem",
                 }}
                 items={Timeline_cont_day1}
               >
                 <div className="text-black">
-                  <h3>Inaugural address</h3>
+                  <h3 className="font-bold">Tea</h3>
                 </div>
                 <div className="text-black">
-                  <h3>Plenary session</h3>
+                  <h3 className="font-bold">Registration</h3>
                 </div>
                 <div className="text-black">
-                  <h3>Lunch</h3>
+                  <h3 className="font-bold">Inaugural Session</h3>
+                  <p>
+                    Chief Guest: Dr Jitendra Singh, MoS, Science and Technology
+                  </p>
+                  <p>Presided by Prof Balram Pani, Dean of Colleges, DU</p>
+                  <p>Venue: Vice Regal Convention Centre, DU</p>
                 </div>
                 <div className="text-black">
-                  <h3>Presentations Individual / group </h3>
+                  <h3 className="font-bold">Lunch</h3>
                 </div>
                 <div className="text-black">
-                  <h3>Tea</h3>
+                  <h3 className="font-bold">Plenary Session {"-"} I</h3>
                 </div>
                 <div className="text-black">
-                  <h3>Presentations from Industry</h3>
+                  <h3 className="font-bold">Tea</h3>
+                </div>
+                <div className="text-black">
+                  <h3 className="font-bold">
+                    Workshop on Writing CSR proposals – I
+                  </h3>
+                  <p>Venue: Conference Centre/ Seminar Room CIC</p>
                 </div>
               </Chrono>
             </div>
@@ -102,12 +114,13 @@ const Schedule = () => {
                 mode="VERTICAL_ALTERNATING"
                 cardHeight={"auto"}
                 // focusActiveItemOnLoad
-                hideControls
+                // hideControls
                 itemWidth={100}
-                cardWidth={300}
+                cardWidth={520}
+                slideShow
                 fontSizes={{
-                    title: "0.8rem",
-                  }}
+                  title: "0.8rem",
+                }}
                 theme={{
                   primary: "blue",
                   secondary: "yellow",
@@ -119,25 +132,42 @@ const Schedule = () => {
                 items={Timeline_cont_day2}
               >
                 <div className="text-black">
-                  <h3>Plenary session</h3>
+                  <h3 className="font-bold">Plenary Session – II</h3>
                 </div>
                 <div className="text-black">
-                  <h3>High Tea</h3>
+                  <h3 className="font-bold">Tea</h3>
                 </div>
                 <div className="text-black">
-                  <h3>Best Practices in PPPs</h3>
+                  <h3 className="font-bold">
+                    Focused Group Discussion: Vision, Agenda, Concerns and Ideas
+                    on PPP Model in Higher Education
+                  </h3>
+                  <h3 className="font-bold">
+                    Oral presentation by participants
+                  </h3>
+                  <p>Venue: Conference Centre, DU</p>
                 </div>
                 <div className="text-black">
-                  <h3>Lunch</h3>
+                  <h3 className="font-bold">Lunch</h3>
                 </div>
                 <div className="text-black">
-                  <h3>Workshop on Writing CSR</h3>
+                  <h3 className="font-bold">
+                    Focused Group Discussion: Vision, Agenda, Concerns and Ideas
+                    on PPP Model in Higher Education (Contd.)
+                  </h3>
+                  <h3 className="font-bold">
+                    Poster presentation by participants
+                  </h3>
+                  <p>Venue: Conference Centre, DU</p>
                 </div>
                 <div className="text-black">
-                  <h3>High Tea</h3>
+                  <h3 className="font-bold">Tea</h3>
                 </div>
                 <div className="text-black">
-                  <h3>Workshop on Writing CSR</h3>
+                  <h3 className="font-bold">
+                    Workshop on Writing CSR proposals – II
+                  </h3>
+                  <p>Venue: Conference Centre/ Seminar Room CIC</p>
                 </div>
               </Chrono>
             </div>
@@ -153,12 +183,13 @@ const Schedule = () => {
                 mode="VERTICAL_ALTERNATING"
                 cardHeight={"auto"}
                 // focusActiveItemOnLoad
-                hideControls
+                // hideControls
                 itemWidth={100}
-                cardWidth={300}
+                cardWidth={520}
+                slideShow
                 fontSizes={{
-                    title: "0.8rem",
-                  }}
+                  title: "0.8rem",
+                }}
                 theme={{
                   primary: "blue",
                   secondary: "yellow",
@@ -170,19 +201,38 @@ const Schedule = () => {
                 items={Timeline_cont_day3}
               >
                 <div className="text-black">
-                  <h3>
-                    Panel Discussion <br />{" "}
-                    <strong> Bridging Academia & Industry</strong>{" "}
+                  <h3 className="font-bold">Plenary Session – III</h3>
+                  <p>Venue: Conference Centre, DU</p>
+                </div>
+                <div className="text-black">
+                  <h3 className="font-bold">Tea</h3>
+                </div>
+                <div className="text-black">
+                  <h3 className="font-bold">Panel Discussion</h3>
+                  <h3 className="font-bold">
+                    Bridging the gap between Academia & Industry
                   </h3>
                 </div>
                 <div className="text-black">
-                  <h3>Valedictory Address</h3>
+                  <h3 className="font-bold">Lunch</h3>
                 </div>
                 <div className="text-black">
-                  <h3>Lunch</h3>
+                  <h3 className="font-bold">
+                    Best Practices from Industry and Academics
+                  </h3>
+                  <p>
+                    Presentations by representatives from Industry and Academia
+                  </p>
+                  <p>Venue: Conference Centre</p>
                 </div>
                 <div className="text-black">
-                  <h3>Focused Group Discussion</h3>
+                  <h3 className="font-bold">Valedictory Address</h3>
+                  <p>Chief Guest: Mr Vineet Joshi</p>
+                  <p>Presided by: Prof. Yogesh Singh (Vice-Chancellor, DU)</p>
+                  <p>Vice Regal Convention Centre, DU</p>
+                </div>
+                <div className="text-black">
+                  <h3 className="font-bold">Tea</h3>
                 </div>
               </Chrono>
             </div>

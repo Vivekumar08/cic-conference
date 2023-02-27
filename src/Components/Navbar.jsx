@@ -73,6 +73,28 @@ const Navbar = () => {
         >
           Highlights
         </Link>
+        <Link
+          activeClass="active"
+          className={` cursor-pointer ${
+            colorChange ? " text-black" : " text-white"
+          }`}
+          smooth
+          spy
+          to="speakers"
+        >
+          Speakers
+        </Link>
+        <Link
+          activeClass="active"
+          className={` cursor-pointer ${
+            colorChange ? " text-black" : " text-white"
+          }`}
+          smooth
+          spy
+          to="schedule"
+        >
+          Schedule
+        </Link>
         {/* <Link
           activeClass="active"
           className={` cursor-pointer ${
@@ -94,17 +116,6 @@ const Navbar = () => {
           to="committee"
         >
           Committee
-        </Link>
-        <Link
-          activeClass="active"
-          className={`cursor-pointer ${
-            colorChange ? " text-black" : " text-white"
-          }`}
-          smooth
-          spy
-          to="speakers"
-        >
-          Speakers
         </Link>
         <Link
           activeClass="active"
