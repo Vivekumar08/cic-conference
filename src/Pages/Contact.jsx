@@ -201,7 +201,7 @@ const Contact = () => {
                       >
                         <img
                           alt={title.Name}
-                          className="self-center flex-shrink-0 w-20 h-20 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500"
+                          className="self-center flex-shrink-0 md:w-20 md:h-20 w-28 h-28 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500"
                           src={title.img}
                         />
                         <p className="text-base text-white font-semibold leading-tight">
@@ -224,15 +224,16 @@ const Contact = () => {
                 <p className="items-center">
                   <span>Copyright &copy; 2023, All Right Reserved</span>
                   <a
-                    href="cic.du.ac.in"
+                    href="http://cic.du.ac.in"
                     className="ml-1 hover:text-red-500 font-bold"
                     target={"_blank"}
+                    rel={"noreferrer"}
                   >
                     CIC
                   </a>
-                  <span className="flex md:justify-end justify-center md:mr-4 mr-5">
+                  <span className="flex md:justify-end justify-center md:mr-4 mr-5 ">
                     {" "}
-                    Designed / Created by: - Vivek Kumar & Priyanshu Sisodiya
+                    Designed / Created by: -<strong> Vivek Kumar & Priyanshu Sisodiya</strong>
                   </span>
                 </p>
               </div>
