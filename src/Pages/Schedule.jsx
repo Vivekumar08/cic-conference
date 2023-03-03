@@ -78,14 +78,15 @@ const Schedule = () => {
                   <h3 className="font-bold">Inaugural Session</h3>
                   <p>
                     Chief Guest: Dr Jitendra Singh, MoS, Science and Technology,
-                    Govt. of India
+                    Govt. of India.
                   </p>
                   <p>
-                    Guest of Honor: Prof. Dinesh Prasad Saklani, Director, NCERT
+                    Guest of Honor: Prof. Dinesh Prasad Saklani, Director,
+                    NCERT, Delhi.
                   </p>
                   <p>
                     Persided by Prof Balram Pani, Dean of Colleges, University
-                    of Delhi
+                    of Delhi.
                   </p>
                 </div>
                 <div className="text-black">
@@ -95,7 +96,7 @@ const Schedule = () => {
                   <h3 className="font-bold">Plenary Session {"-"} I</h3>
                   <p>
                     Prof. Dinesh Singh, Former Vice Chancellor, University of
-                    Delhi
+                    Delhi.
                   </p>
                 </div>
                 <div className="text-black">
@@ -108,7 +109,7 @@ const Schedule = () => {
                   <p className=" flex text-justify">
                     Mr. Nikhil Pant, Former Chief of Program Executive, National
                     Foundation for CSR, IICA, Ministry of Corporate Affairs
-                    Govt. of India
+                    Govt. of India.
                   </p>
                 </div>
               </Chrono>
@@ -144,13 +145,13 @@ const Schedule = () => {
               >
                 <div className="text-black">
                   <h3 className="font-bold">Plenary Session – II</h3>
-                  <p>Prof. Rajive Kumar, Member Secretary, AICTE, Delhi</p>
+                  <p>Prof. Rajive Kumar, Member Secretary, AICTE, Delhi.</p>
                 </div>
                 <div className="text-black">
                   <h3 className="font-bold">Plenary Session – III</h3>
                   <p>
                     Dr. Per-Arne-Wikstrom, Counsellor- Innovation & Science
-                    Embassy of Sweden
+                    Embassy of Sweden.
                   </p>
                 </div>
                 <div className="text-black">
@@ -159,7 +160,7 @@ const Schedule = () => {
                 <div className="text-black">
                   <h3 className="font-bold">
                     Focused Group Discussion: Vision, Agenda, Concerns and Ideas
-                    on PPP Model in Higher Education
+                    on PPP Model in Higher Education.
                   </h3>
                   <hr class="h-px my-2 bg-gray-800 border-0"></hr>
                   <h3 className="font-bold">
@@ -172,7 +173,7 @@ const Schedule = () => {
                 </div>
                 <div className="text-black">
                   <h3 className="font-bold">Plenary Session - IV</h3>
-                  <p>Sonam Wangchuk, Innovator & Education Reformist</p>
+                  <p>Sonam Wangchuk, Innovator & Education Reformist.</p>
                   <hr class=" my-2 h-px  bg-gray-800 border-0"></hr>
                   <h3 className="font-bold">
                     Oral presentation by participants
@@ -220,7 +221,7 @@ const Schedule = () => {
                 <div className="text-black">
                   <div>
                     <h3 className="font-bold">Plenary Session – V</h3>
-                    <p>Prof. L.S. Shashidhara, ISEAR, Pune</p>
+                    <p>Prof. L.S. Shashidhara, ISEAR, Pune.</p>
                   </div>
                   <hr class=" my-2 h-px  bg-gray-800 border-0"></hr>
 
@@ -231,9 +232,7 @@ const Schedule = () => {
                 </div>
                 <div className="text-black">
                   <h3 className="font-bold">Panel Discussion</h3>
-                  <h3 className="font-bold">
-                    Bridging the gap between Academia & Industry
-                  </h3>
+                  <p>Bridging the gap between Academia & Industry</p>
                 </div>
                 <div className="text-black">
                   <h3 className="font-bold">Lunch</h3>
@@ -248,14 +247,14 @@ const Schedule = () => {
                 </div>
                 <div className="text-black">
                   <h3 className="font-bold">Valedictory Address</h3>
-                  <p>Chief Guest: Mr Vineet Joshi, Controller NTA</p>
+                  <p>Chief Guest: Mr Vineet Joshi, Controller NTA.</p>
                   <p>
                     Guest of Honor: Prof. Saroj Sharma Joshi, Chairperson, NIOS,
-                    Delhi
+                    Delhi.
                   </p>
                   <p>
                     Presided by: Prof. Yogesh Singh (Vice-Chancellor, University
-                    of Delhi)
+                    of Delhi).
                   </p>
                   <p>Venue: Conference Centre, DU</p>
                 </div>
