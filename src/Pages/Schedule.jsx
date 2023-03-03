@@ -85,7 +85,7 @@ const Schedule = () => {
                     NCERT, Delhi.
                   </p>
                   <p>
-                    Persided by Prof Balram Pani, Dean of Colleges, University
+                    Persided by: Prof. Balram Pani, Dean of Colleges, University
                     of Delhi.
                   </p>
                 </div>
