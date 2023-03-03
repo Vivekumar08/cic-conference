@@ -72,24 +72,31 @@ const Schedule = () => {
                 items={Timeline_cont_day1}
               >
                 <div className="text-black">
-                  <h3 className="font-bold">Tea</h3>
-                </div>
-                <div className="text-black">
                   <h3 className="font-bold">Registration</h3>
                 </div>
                 <div className="text-black">
                   <h3 className="font-bold">Inaugural Session</h3>
                   <p>
-                    Chief Guest: Dr Jitendra Singh, MoS, Science and Technology
+                    Chief Guest: Dr Jitendra Singh, MoS, Science and Technology,
+                    Govt. of India
                   </p>
-                  <p>Presided by Prof Balram Pani, Dean of Colleges, DU</p>
-                  <p>Venue: Vice Regal Convention Centre, DU</p>
+                  <p>
+                    Guest of Honor: Prof. Dinesh Prasad Saklani, Director, NCERT
+                  </p>
+                  <p>
+                    Persided by Prof Balram Pani, Dean of Colleges, University
+                    of Delhi
+                  </p>
                 </div>
                 <div className="text-black">
                   <h3 className="font-bold">Lunch</h3>
                 </div>
                 <div className="text-black">
                   <h3 className="font-bold">Plenary Session {"-"} I</h3>
+                  <p>
+                    Prof. Dinesh Singh, Former Vice Chancellor, University of
+                    Delhi
+                  </p>
                 </div>
                 <div className="text-black">
                   <h3 className="font-bold">Tea</h3>
@@ -98,7 +105,11 @@ const Schedule = () => {
                   <h3 className="font-bold">
                     Workshop on Writing CSR proposals – I
                   </h3>
-                  <p>Venue: Conference Centre/ Seminar Room CIC</p>
+                  <p className=" flex text-justify">
+                    Mr. Nikhil Pant, Former Chief of Program Executive, National
+                    Foundation for CSR, IICA, Ministry of Corporate Affairs
+                    Govt. of India
+                  </p>
                 </div>
               </Chrono>
             </div>
@@ -133,6 +144,14 @@ const Schedule = () => {
               >
                 <div className="text-black">
                   <h3 className="font-bold">Plenary Session – II</h3>
+                  <p>Prof. Rajive Kumar, Member Secretary, AICTE, Delhi</p>
+                </div>
+                <div className="text-black">
+                  <h3 className="font-bold">Plenary Session – III</h3>
+                  <p>
+                    Dr. Per-Arne-Wikstrom, Counsellor- Innovation & Science
+                    Embassy of Sweden
+                  </p>
                 </div>
                 <div className="text-black">
                   <h3 className="font-bold">Tea</h3>
@@ -142,6 +161,7 @@ const Schedule = () => {
                     Focused Group Discussion: Vision, Agenda, Concerns and Ideas
                     on PPP Model in Higher Education
                   </h3>
+                  <hr class="h-px my-2 bg-gray-800 border-0"></hr>
                   <h3 className="font-bold">
                     Oral presentation by participants
                   </h3>
@@ -151,14 +171,12 @@ const Schedule = () => {
                   <h3 className="font-bold">Lunch</h3>
                 </div>
                 <div className="text-black">
+                  <h3 className="font-bold">Plenary Session - IV</h3>
+                  <p>Sonam Wangchuk, Innovator & Education Reformist</p>
+                  <hr class=" my-2 h-px  bg-gray-800 border-0"></hr>
                   <h3 className="font-bold">
-                    Focused Group Discussion: Vision, Agenda, Concerns and Ideas
-                    on PPP Model in Higher Education (Contd.)
+                    Oral presentation by participants
                   </h3>
-                  <h3 className="font-bold">
-                    Poster presentation by participants
-                  </h3>
-                  <p>Venue: Conference Centre, DU</p>
                 </div>
                 <div className="text-black">
                   <h3 className="font-bold">Tea</h3>
@@ -167,7 +185,6 @@ const Schedule = () => {
                   <h3 className="font-bold">
                     Workshop on Writing CSR proposals – II
                   </h3>
-                  <p>Venue: Conference Centre/ Seminar Room CIC</p>
                 </div>
               </Chrono>
             </div>
@@ -201,8 +218,13 @@ const Schedule = () => {
                 items={Timeline_cont_day3}
               >
                 <div className="text-black">
-                  <h3 className="font-bold">Plenary Session – III</h3>
-                  <p>Venue: Conference Centre, DU</p>
+                  <div>
+                    <h3 className="font-bold">Plenary Session – V</h3>
+                    <p>Prof. L.S. Shashidhara, ISEAR, Pune</p>
+                  </div>
+                  <hr class=" my-2 h-px  bg-gray-800 border-0"></hr>
+
+                  <h3 className="font-bold">Poster | Showcasing</h3>
                 </div>
                 <div className="text-black">
                   <h3 className="font-bold">Tea</h3>
@@ -223,16 +245,22 @@ const Schedule = () => {
                   <p>
                     Presentations by representatives from Industry and Academia
                   </p>
-                  <p>Venue: Conference Centre</p>
                 </div>
                 <div className="text-black">
                   <h3 className="font-bold">Valedictory Address</h3>
-                  <p>Chief Guest: Mr Vineet Joshi</p>
-                  <p>Presided by: Prof. Yogesh Singh (Vice-Chancellor, DU)</p>
-                  <p>Vice Regal Convention Centre, DU</p>
+                  <p>Chief Guest: Mr Vineet Joshi, Controller NTA</p>
+                  <p>
+                    Guest of Honor: Prof. Saroj Sharma Joshi, Chairperson, NIOS,
+                    Delhi
+                  </p>
+                  <p>
+                    Presided by: Prof. Yogesh Singh (Vice-Chancellor, University
+                    of Delhi)
+                  </p>
+                  <p>Venue: Conference Centre, DU</p>
                 </div>
                 <div className="text-black">
-                  <h3 className="font-bold">Tea</h3>
+                  <h3 className="font-bold">High Tea</h3>
                 </div>
               </Chrono>
             </div>

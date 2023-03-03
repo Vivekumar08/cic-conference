@@ -18,9 +18,6 @@ import vivek from "./Assets/vivek.jpeg";
 
 export const Timeline_cont_day1 = [
     {
-        title: "11:00 AM - 11:30 AM ",
-    },
-    {
         title: "11:30 AM - 12:30 PM",
     },
     {
@@ -41,25 +38,25 @@ export const Timeline_cont_day1 = [
 ]
 export const Timeline_cont_day2 = [
     {
-        title: "10:00 AM - 11:30 AM ",
+        title: "10:00 AM - 11:00 AM ",
     },
     {
-        title: "11:30 AM - 11:45 AM",
+        title: "11:00 AM - 11:15 AM ",
     },
     {
-        title: "11:45 AM - 01:15 PM",
+        title: "11:15 AM - 01:15 PM",
     },
     {
-        title: "1:15 PM - 2:00 PM",
+        title: "01:15 PM - 02:00 PM",
     },
     {
         title: "02:00 PM - 03:30 PM",
     },
     {
-        title: "03:30 PM - 03:45 PM",
+        title: "03:30 PM - 04:30 PM",
     },
     {
-        title: "03:45 PM - 05:15 PM",
+        title: "04:30 PM",
     },
 ]
 export const Timeline_cont_day3 = [
