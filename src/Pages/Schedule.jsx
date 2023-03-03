@@ -75,7 +75,7 @@ const Schedule = () => {
                   <h3 className="font-bold">Registration</h3>
                 </div>
                 <div className="text-black">
-                  <h3 className="font-bold">Inaugural Session</h3>
+                  <h3 className="font-bold">Inaugural Session (details of the Program)</h3>
                   <p>
                     Chief Guest: Dr Jitendra Singh, MoS, Science and Technology,
                     Govt. of India.
