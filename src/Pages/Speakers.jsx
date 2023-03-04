@@ -5,9 +5,7 @@ import "./speakers.css";
 import yogesh from "../Assets/Yogesh_Singh_vc.jpg";
 import jitendra from "../Assets/Union-Minister-Jitendra-Singh.jpg";
 import shobha from "../Assets/Shobha_Bagai.jpg";
-import Dinesh from "../Assets/Dinesh_Singh.png";
-import LS from "../Assets/LS_Shashidharan.jpg";
-import Rajive from "../Assets/Prof_Rajive_Kumar.jpg";
+import { Speaker } from "../Content";
 
 const Speakers = () => {
   return (
@@ -87,42 +85,32 @@ const Speakers = () => {
           <FontAwesomeIcon icon={faDiamond} />
         </div>
       </div>
-      <div className="w-4/5 ml-auto mr-auto flex gap-4 py-6 overflow-x-auto h-64">
-        <div className="flex flex-col h-28 aspect-video">
-          <img
-            className=" h-48 aspect-square rounded-sm object-cover object-center dark:bg-gray-500"
-            src={Dinesh}
-            alt=" 1"
-          />
-          <h1 className="flex justify-center text-base md:text-xl font-bold ">
-            Prof. Dinesh Singh
-          </h1>
-        </div>
-        <div className="flex flex-col h-28 aspect-video">
-          <img
-            className="h-48 aspect-square rounded-sm object-cover object-center dark:bg-gray-500"
-            src={LS}
-            alt=" 1"
-          />
-          <h1 className="flex justify-center text-base md:text-xl font-bold ">
-            Prof. L S Shashidhara
-          </h1>
-        </div>
-        <div className="flex flex-col h-28 aspect-video">
-          <img
-            className=" h-48 aspect-square rounded-sm object-cover object-center dark:bg-gray-500"
-            src={Rajive}
-            alt=" 1"
-          />
-          <h1 className="flex justify-center text-base md:text-xl font-bold ">
-            Prof. Rajive Kumar
-          </h1>
-        </div>
-        <div className="flex flex-col h-28 aspect-video ">
-          <h1 className="flex justify-center align-middle pt-16 text-base md:text-xl font-bold ">
-            To be updated
-          </h1>
-        </div>
+      <div className="w-4/5 ml-auto mr-auto flex gap-4 py-2 mt-8 overflow-x-auto h-72">
+        {Speaker.map((title, i) => {
+          return (
+            <>
+              <div className="flex flex-col h-28 aspect-video">
+                <img
+                  className=" h-48 aspect-square rounded-md object-cover object-center dark:bg-gray-500"
+                  src={title.img}
+                  alt={title.Name}
+                />
+                <a
+                  href={title.Profile}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <h1 className="flex justify-center text-sm md:text-sm font-bold ">
+                    {title.Name}
+                  </h1>
+                  <p className="text-xs text-justify text-blue-800 font-semibold flex justify-center">
+                    {title.Desg}
+                  </p>
+                </a>
+              </div>
+            </>
+          );
+        })}
       </div>
     </div>
   );

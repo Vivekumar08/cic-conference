@@ -233,7 +233,8 @@ const Contact = () => {
                   </a>
                   <span className="flex md:justify-end justify-center md:mr-4 mr-5 ">
                     {" "}
-                    Designed / Created by: -<strong> Vivek Kumar & Priyanshu Sisodiya</strong>
+                    Designed / Created by: -
+                    <strong> Vivek Kumar & Priyanshu Sisodiya</strong>
                   </span>
                 </p>
               </div>
