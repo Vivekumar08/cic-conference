@@ -175,7 +175,7 @@ export const CommitteeMembers = [
 export const Speaker = [
     {
         Name: 'Dr. Jitender Singh',
-        Desg:"Mos, Science & Tech, GoI",
+        Desg:"Minister of State, Ministry of Science & Tech, Government of India",
         Profile:"https://www.moes.gov.in/about-us/Meet-our-Minister",
         img: jitender
     },
@@ -187,7 +187,7 @@ export const Speaker = [
     },
     {
         Name: 'Prof. Yogesh Singh',
-        Desg:"VC, DU",
+        Desg:"Vice Chancellor, University of Delhi",
         Profile:"http://www.du.ac.in/index.php?page=vice-chancellor",
         img: yogesh
     },
@@ -199,31 +199,31 @@ export const Speaker = [
     },
     {
         Name: 'Prof. Dinesh Singh',
-        Desg:"Former VC, University of Delhi",
+        Desg:"Former Vice Chancellor, University of Delhi",
         Profile:"http://www.du.ac.in/hi/uploads/du/Faculty%20CV/Math_Dinesh_Singh.pdf",
         img: dinesh_singh
     },
     {
         Name: 'Prof. Rajive Kumar',
-        Desg:"Member Secretary, AICTE Delhi",
+        Desg:"Member Secretary, All India Council for Technical Education, Delhi",
         Profile:"https://hindi.aicte-india.org/node/74",
         img: rajive
     },
     {
         Name: 'Mr. Vinit Joshi',
-        Desg:"DG NTA",
+        Desg:"Director General of National Testing Agency",
         Profile:"https://en.wikipedia.org/wiki/Vineet_Joshi",
         img: vinit
     },
     {
         Name: 'Saroj Sharma',
-        Desg:"Chairperson, NIOS",
+        Desg:"Chairperson, National Institute of Open Schooling",
         Profile:"https://nios.ac.in/about-us/staff-list/brief-profile-prof-saroj-sharma.aspx",
         img: saroj
     },
     {
         Name: 'Mr. Nikhil Pant',
-        Desg:"Former Chief Program Executive National Foundation for CSR, IICA, Ministry of Corporate Affairs, GoI",
+        Desg:"Former Chief Program Executive National Foundation for Corporate Socail Responsibility, Inidian Institute of Corporate Affairs, Ministry of Corporate Affairs, Government of India",
         Profile:"https://drive.google.com/file/d/1S6Ai4-7Ub_Y9oiUqDHnOuSAVqpiEjHWx/view?usp=share_link",
         img: nikhil_pant
     },
@@ -247,7 +247,7 @@ export const Speaker = [
     },
     {
         Name: 'Dr. Alok Nikhil Jha',
-        Desg:"IIT Delhi",
+        Desg:"IIIT Delhi",
         Profile:"https://www.linkedin.com/in/aloknikhil/?originalSubdomain=in",
         img: alok_nikhil
     },
