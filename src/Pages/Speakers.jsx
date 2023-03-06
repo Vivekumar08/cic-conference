@@ -5,8 +5,16 @@ import "./speakers.css";
 import yogesh from "../Assets/Yogesh_Singh_vc.jpg";
 import jitendra from "../Assets/Union-Minister-Jitendra-Singh.jpg";
 import shobha from "../Assets/Shobha_Bagai.jpg";
-import { Speaker } from "../Content";
+import { Tree, TreeNode } from "react-organizational-chart";
 
+import { Speaker } from "../Content";
+import styled from "@emotion/styled";
+const StyledNode = styled.div`
+  padding: 5px;
+  border-radius: 8px;
+  display: inline-block;
+  border: 1px solid red;
+`;
 const Speakers = () => {
   return (
     <div className="h-fit flex flex-col md:mt-12" id="speakers">
@@ -76,7 +84,7 @@ const Speakers = () => {
           </p>
         </div>
       </div>
-      <div className="font-bold md:text-4xl text-2xl justify-center flex mt-16">
+      <div className="font-bold md:text-4xl text-2xl justify-center flex mt-16 mb-5">
         Speakers
       </div>
       <div class="inline-flex items-center justify-center w-full">
@@ -111,6 +119,79 @@ const Speakers = () => {
             </>
           );
         })}
+      </div>
+      <div>
+        <Tree
+          lineWidth={"2px"}
+          lineColor={"green"}
+          lineBorderRadius={"10px"}
+          label={<StyledNode>Inaugural Session</StyledNode>}
+        >
+          <TreeNode label={<StyledNode>Keynote Speaker</StyledNode>}>
+            <TreeNode
+              label={<StyledNode>Prof. Dinesh Prashad Saklani</StyledNode>}
+            />
+          </TreeNode>
+          <TreeNode label={<StyledNode>Chief Guest</StyledNode>}>
+            <TreeNode
+              label={<StyledNode>Dr.Jitendra Singh</StyledNode>}
+            ></TreeNode>
+          </TreeNode>
+          <TreeNode label={<StyledNode>Presided by</StyledNode>}></TreeNode>
+        </Tree>
+        <br />
+        <Tree
+          lineWidth={"2px"}
+          lineColor={"green"}
+          lineBorderRadius={"10px"}
+          label={<StyledNode>Plenary Speakers</StyledNode>}
+        >
+          <TreeNode label={<StyledNode>Prof. Dinesh Singh</StyledNode>}>
+            {/* <TreeNode label={<StyledNode>Grand Child</StyledNode>} /> */}
+          </TreeNode>
+          <TreeNode
+            label={<StyledNode>Prof. Rajive Kumar</StyledNode>}
+          ></TreeNode>
+          <TreeNode
+            label={<StyledNode>Dr. Per-Arne Wikström</StyledNode>}
+          ></TreeNode>
+          <TreeNode label={<StyledNode>Sonam Wangchuk</StyledNode>}></TreeNode>
+        </Tree>
+        <br />
+        <Tree
+          lineWidth={"2px"}
+          lineColor={"green"}
+          lineBorderRadius={"10px"}
+          label={<StyledNode>Invited Speakers</StyledNode>}
+        >
+          <TreeNode
+            label={<StyledNode>Panel Discussion</StyledNode>}
+          ></TreeNode>
+          <TreeNode label={<StyledNode>Best Practices</StyledNode>}>
+            <TreeNode
+              label={<StyledNode>Dr. Anirbun Bandhopadhayay </StyledNode>}
+            />
+            <TreeNode label={<StyledNode>Dr. Alok Nikhil Jha</StyledNode>} />
+          </TreeNode>
+        </Tree>
+        <br />
+        <Tree
+          lineWidth={"2px"}
+          lineColor={"green"}
+          lineBorderRadius={"10px"}
+          label={<StyledNode>Valedictory Session</StyledNode>}
+        >
+          <TreeNode label={<StyledNode>Guest of Honour</StyledNode>}>
+            <TreeNode label={<StyledNode>Prof. Saroj Sharma</StyledNode>} />
+          </TreeNode>
+          <TreeNode label={<StyledNode>Chief Guest</StyledNode>}>
+            <TreeNode label={<StyledNode>Mr. Vineet Joshi</StyledNode>} />
+          </TreeNode>
+
+          <TreeNode label={<StyledNode>Presided by</StyledNode>}>
+            <TreeNode label={<StyledNode>Prof. Yogesh Singh</StyledNode>} />
+          </TreeNode>
+        </Tree>
       </div>
     </div>
   );
