@@ -85,7 +85,7 @@ const Speakers = () => {
           <FontAwesomeIcon icon={faDiamond} />
         </div>
       </div>
-      <div className="w-4/5 ml-auto mr-auto flex gap-4 py-2 mt-8 overflow-x-auto h-72">
+      <div className="w-4/5 ml-auto mr-auto flex gap-4 py-2 mt-8 overflow-x-auto h-80">
         {Speaker.map((title, i) => {
           return (
             <>
