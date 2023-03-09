@@ -6,8 +6,8 @@ import yogesh from "../Assets/Yogesh_Singh_vc.jpg";
 // import jitendra from "../Assets/Union-Minister-Jitendra-Singh.jpg";
 import shobha from "../Assets/Shobha_Bagai.jpg";
 import { Tree, TreeNode } from "react-organizational-chart";
-import jyoti from "../Assets/jyoti_sharma.jpeg"
-import pankaj from "../Assets/Pankaj_tyagi.jpeg"
+import jyoti from "../Assets/jyoti_sharma.jpeg";
+import pankaj from "../Assets/Pankaj_tyagi.jpeg";
 //Speakers
 import jitender from "../Assets/speakers/jitender.jpg";
 import dinesh_Prashad from "../Assets/speakers/dinesh_Prashad.jpg";
@@ -214,7 +214,7 @@ const Speakers = () => {
             ></TreeNode>
           </TreeNode>
           <TreeNode label={<StyledNode>Presided by</StyledNode>}>
-          <TreeNode
+            <TreeNode
               label={
                 <StyledNode className="sm:w-48 w-40 ">
                   <img
@@ -223,7 +223,9 @@ const Speakers = () => {
                     alt={"Prof. Balram Pani"}
                   />
                   <a
-                    href={"http://bcas.du.ac.in/wp-content/uploads/2019/12/FACULTY-PROFILE-Dr-Balaram-Pani-1.pdf"}
+                    href={
+                      "http://bcas.du.ac.in/wp-content/uploads/2019/12/FACULTY-PROFILE-Dr-Balaram-Pani-1.pdf"
+                    }
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -231,9 +233,7 @@ const Speakers = () => {
                       {"Prof. Balram Pani"}
                     </h1>
                     <p className="text-xs text-justify text-blue-800 font-semibold flex justify-center">
-                      {
-                        "Dean Colleges, University of Delhi"
-                      }
+                      {"Dean Colleges, University of Delhi"}
                     </p>
                   </a>
                 </StyledNode>
@@ -272,9 +272,7 @@ const Speakers = () => {
                 </a>
               </StyledNode>
             }
-          >
-            {/* <TreeNode label={<StyledNode>Grand Child</StyledNode>} /> */}
-          </TreeNode>
+          ></TreeNode>
           <TreeNode
             label={
               <StyledNode className="w-48">
@@ -359,9 +357,112 @@ const Speakers = () => {
           lineBorderRadius={"10px"}
           label={<StyledNode>Invited Speakers</StyledNode>}
         >
-          <TreeNode
-            label={<StyledNode>Panel Discussion</StyledNode>}
-          ></TreeNode>
+          <TreeNode label={<StyledNode>Panel Discussion</StyledNode>}>
+            {" "}
+            <TreeNode label={<StyledNode><a
+                    href={
+                      ""
+                    }
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <h1 className="flex justify-center text-sm md:text-sm font-bold ">
+                      {"Prof Ashutosh Bhardwaj"}
+                    </h1>
+                    <p className="text-xs text-justify text-blue-800 font-semibold flex justify-center">
+                      {"University of Delhi"}
+                    </p>
+                  </a></StyledNode>} />
+                  <TreeNode label={<StyledNode><a
+                    href={
+                      "https://www.linkedin.com/in/tarun-singhal-2a61873/"
+                    }
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <h1 className="flex justify-center text-sm md:text-sm font-bold ">
+                      {"Mr Tarun Singhal"}
+                    </h1>
+                    <p className="text-xs text-justify text-blue-800 font-semibold flex justify-center">
+                      {"VP and Head of Engineering and R&D at Hughes Systique"}
+                    </p>
+                  </a></StyledNode>} />
+                  <TreeNode label={<StyledNode><a
+                    href={
+                      ""
+                    }
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <h1 className="flex justify-center text-sm md:text-sm font-bold ">
+                      {"Dr Pradeep"}
+                    </h1>
+                    <p className="text-xs text-justify text-blue-800 font-semibold flex justify-center">
+                      {""}
+                    </p>
+                  </a></StyledNode>} />
+                  <TreeNode label={<StyledNode><a
+                    href={
+                      ""
+                    }
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <h1 className="flex justify-center text-sm md:text-sm font-bold ">
+                      {"Ms. Shipra Mishra"}
+                    </h1>
+                    <p className="text-xs text-justify text-blue-800 font-semibold flex justify-center">
+                      {""}
+                    </p>
+                  </a></StyledNode>} />
+                  <TreeNode label={<StyledNode><a
+                    href={
+                      "https://www.icfi.nl/people/prof-dr-saradindu-bhaduri"
+                    }
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <h1 className="flex justify-center text-sm md:text-sm font-bold ">
+                      {"Prof. Saradindu Bhaduri, JNU"}
+                    </h1>
+                    <p className="text-xs text-justify text-blue-800 font-semibold flex justify-center">
+                      {"Centre for Studies in Science Policy, JNU"}
+                    </p>
+                  </a></StyledNode>} />
+                  <TreeNode label={<StyledNode><a
+                    href={
+                      ""
+                    }
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <h1 className="flex justify-center text-sm md:text-sm font-bold ">
+                      {"Prof Biswal"}
+                    </h1>
+                    <p className="text-xs text-justify text-blue-800 font-semibold flex justify-center">
+                      {"Professor, CIC,DU"}
+                    </p>
+                  </a></StyledNode>} />
+                  <TreeNode label={<StyledNode><a
+                    href={
+                      ""
+                    }
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <h1 className="flex justify-center text-sm md:text-sm font-bold ">
+                      {"Mr Anirban"}
+                    </h1>
+                    <p className="text-xs text-justify text-blue-800 font-semibold flex justify-center">
+                      {""}
+                    </p>
+                  </a></StyledNode>} />
+
+
+          </TreeNode>
+            
+          
+
           <TreeNode label={<StyledNode>Best Practices</StyledNode>}>
             <TreeNode
               label={
@@ -389,6 +490,20 @@ const Speakers = () => {
                 </StyledNode>
               }
             />
+             <TreeNode label={<StyledNode><a
+                    href={
+                      "https://www.linkedin.com/in/purusharth-singh-951736a/"
+                    }
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <h1 className="flex justify-center text-sm md:text-sm font-bold ">
+                      {"Mr Purusharth Singh"}
+                    </h1>
+                    <p className="text-xs text-justify text-blue-800 font-semibold flex justify-center">
+                      {"Partner Kochar and Co."}
+                    </p>
+                  </a></StyledNode>} />
             <TreeNode
               label={
                 <StyledNode className="w-48">
@@ -429,26 +544,25 @@ const Speakers = () => {
               label={
                 <StyledNode className="w-48">
                   {" "}
-                
                   <img
-                  className=" h-48 aspect-square rounded-md object-cover object-center dark:bg-gray-500"
-                  src={saroj}
-                  alt={"Prof. Saroj Sharma"}
-                />
-                <a
-                  href={
-                    "https://nios.ac.in/about-us/staff-list/brief-profile-prof-saroj-sharma.aspx"
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <h1 className="flex justify-center text-sm md:text-sm font-bold ">
-                    {"Prof. Saroj Sharma"}
-                  </h1>
-                  <p className="text-xs text-justify text-blue-800 font-semibold flex justify-center">
-                    {"Chairperson, National Institute of Open Schooling"}
-                  </p>
-                </a>
+                    className=" h-48 aspect-square rounded-md object-cover object-center dark:bg-gray-500"
+                    src={saroj}
+                    alt={"Prof. Saroj Sharma"}
+                  />
+                  <a
+                    href={
+                      "https://nios.ac.in/about-us/staff-list/brief-profile-prof-saroj-sharma.aspx"
+                    }
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <h1 className="flex justify-center text-sm md:text-sm font-bold ">
+                      {"Prof. Saroj Sharma"}
+                    </h1>
+                    <p className="text-xs text-justify text-blue-800 font-semibold flex justify-center">
+                      {"Chairperson, National Institute of Open Schooling"}
+                    </p>
+                  </a>
                 </StyledNode>
               }
             />
@@ -458,53 +572,52 @@ const Speakers = () => {
               label={
                 <StyledNode className="w-48">
                   {" "}
-                  
                   <img
-                  className=" h-48 aspect-square rounded-md object-cover object-center dark:bg-gray-500"
-                  src={vinit}
-                  alt={"Mr. Vineet Joshi"}
-                />
-                <a
-                  href={
-                    "https://en.wikipedia.org/wiki/Vineet_Joshi"
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <h1 className="flex justify-center text-sm md:text-sm font-bold ">
-                    {"Mr. Vineet Joshi"}
-                  </h1>
-                  <p className="text-xs text-justify text-blue-800 font-semibold flex justify-center">
-                    {"Director General of National Testing Agency"}
-                  </p>
-                </a>
+                    className=" h-48 aspect-square rounded-md object-cover object-center dark:bg-gray-500"
+                    src={vinit}
+                    alt={"Mr. Vineet Joshi"}
+                  />
+                  <a
+                    href={"https://en.wikipedia.org/wiki/Vineet_Joshi"}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <h1 className="flex justify-center text-sm md:text-sm font-bold ">
+                      {"Mr. Vineet Joshi"}
+                    </h1>
+                    <p className="text-xs text-justify text-blue-800 font-semibold flex justify-center">
+                      {"Director General of National Testing Agency"}
+                    </p>
+                  </a>
                 </StyledNode>
               }
             />
           </TreeNode>
 
           <TreeNode label={<StyledNode>Presided by</StyledNode>}>
-            <TreeNode label={<StyledNode className="w-48">
-              <img
-                  className=" h-48 aspect-square rounded-md object-cover object-center dark:bg-gray-500"
-                  src={yogesh}
-                  alt={"Prof. Yogesh Singh"}
-                />
-                <a
-                  href={
-                    "http://www.du.ac.in/index.php?page=vice-chancellor"
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <h1 className="flex justify-center text-sm md:text-sm font-bold ">
-                    {"Prof. Yogesh Singh"}
-                  </h1>
-                  <p className="text-xs text-justify text-blue-800 font-semibold flex justify-center">
-                    {"Vice Chancellor, University of Delhi"}
-                  </p>
-                </a>
-            </StyledNode>} />
+            <TreeNode
+              label={
+                <StyledNode className="w-48">
+                  <img
+                    className=" h-48 aspect-square rounded-md object-cover object-center dark:bg-gray-500"
+                    src={yogesh}
+                    alt={"Prof. Yogesh Singh"}
+                  />
+                  <a
+                    href={"http://www.du.ac.in/index.php?page=vice-chancellor"}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <h1 className="flex justify-center text-sm md:text-sm font-bold ">
+                      {"Prof. Yogesh Singh"}
+                    </h1>
+                    <p className="text-xs text-justify text-blue-800 font-semibold flex justify-center">
+                      {"Vice Chancellor, University of Delhi"}
+                    </p>
+                  </a>
+                </StyledNode>
+              }
+            />
           </TreeNode>
         </Tree>
       </div>
