@@ -3,10 +3,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import "./speakers.css";
 import yogesh from "../Assets/Yogesh_Singh_vc.jpg";
-import jitendra from "../Assets/Union-Minister-Jitendra-Singh.jpg";
+// import jitendra from "../Assets/Union-Minister-Jitendra-Singh.jpg";
 import shobha from "../Assets/Shobha_Bagai.jpg";
 import { Tree, TreeNode } from "react-organizational-chart";
-
+import jyoti from "../Assets/jyoti_sharma.jpeg"
+import pankaj from "../Assets/Pankaj_tyagi.jpeg"
 //Speakers
 import jitender from "../Assets/speakers/jitender.jpg";
 import dinesh_Prashad from "../Assets/speakers/dinesh_Prashad.jpg";
@@ -15,13 +16,13 @@ import dinesh_singh from "../Assets/speakers/Dinesh_Singh.jpg";
 import rajive from "../Assets/speakers/Rajive_Kumar.jpg";
 import vinit from "../Assets/speakers/Vinit_Joshi.jpg";
 import saroj from "../Assets/speakers/Saroj_sharma.jpg";
-import nikhil_pant from "../Assets/speakers/Nikhil_pant.jpg";
+// import nikhil_pant from "../Assets/speakers/Nikhil_pant.jpg";
 import per_arne from "../Assets/speakers/Per_Arne_Winkstron.jpg";
 import sonam_wangchuk from "../Assets/speakers/Sonam_Wangchuk.jpg";
 import anirbun from "../Assets/speakers/Anirbun.jpg";
 import alok_nikhil from "../Assets/speakers/Alok_Nikhil_Jha.jpg";
 
-import { Speaker } from "../Content";
+// import { Speaker } from "../Content";
 import styled from "@emotion/styled";
 const StyledNode = styled.div`
   padding: 5px;
@@ -41,8 +42,8 @@ const Speakers = () => {
           <FontAwesomeIcon icon={faDiamond} />
         </div>
       </div>
-      <div className="flex sm:flex-row ml-6 gap-5 md:ml-0 justify-center flex-col ">
-        <div className="w-52 h-3/4 p-2 rounded-md shadow-md dark:bg-gray-900 dark:text-gray-50">
+      <div className="flex sm:flex-row ml-20 gap-5 md:ml-0 sm:justify-center  flex-col ">
+        <div className="sm:w-52 w-60 h-3/4 p-2 rounded-md shadow-md dark:bg-gray-900 dark:text-gray-50">
           <img
             src={yogesh}
             alt=""
@@ -60,7 +61,7 @@ const Speakers = () => {
             Vice-Chancellor, University of Delhi
           </p>
         </div>
-        <div className="w-52 h-3/4  p-2 rounded-md shadow-md dark:bg-gray-900 dark:text-gray-50">
+        <div className="sm:w-52 w-60 h-3/4  p-2 rounded-md shadow-md dark:bg-gray-900 dark:text-gray-50">
           <img
             src={shobha}
             alt=""
@@ -76,6 +77,42 @@ const Speakers = () => {
           </div>
           <p className="dark:text-gray-100">
             Director CIC, University of Delhi
+          </p>
+        </div>
+        <div className="sm:w-52 w-60 h-3/4  p-2 rounded-md shadow-md dark:bg-gray-900 dark:text-gray-50">
+          <img
+            src={jyoti}
+            alt=""
+            className="object-cover object-center aspect-square rounded-md h-52 dark:bg-gray-500"
+          />
+          <div className="mt-6 mb-2">
+            <span className="block text-xs font-medium tracking-widest uppercase dark:text-blue-400">
+              Convenor
+            </span>
+            <h2 className="text-lg font-semibold tracking-wide">
+              Prof. Jyoti Sharma
+            </h2>
+          </div>
+          <p className="dark:text-gray-100">
+            Jt. Director CIC, University of Delhi
+          </p>
+        </div>
+        <div className="sm:w-52 w-60 h-3/4  p-2 rounded-md shadow-md dark:bg-gray-900 dark:text-gray-50">
+          <img
+            src={pankaj}
+            alt=""
+            className="object-cover object-center aspect-square rounded-md h-52 dark:bg-gray-500"
+          />
+          <div className="mt-6 mb-2">
+            <span className="block text-xs font-medium tracking-widest uppercase dark:text-blue-400">
+              Convenor
+            </span>
+            <h2 className="text-lg font-semibold tracking-wide">
+              Prof. Pankaj Tyagi
+            </h2>
+          </div>
+          <p className="dark:text-gray-100">
+            Convenor, CIC, University of Delhi
           </p>
         </div>
       </div>
@@ -118,16 +155,16 @@ const Speakers = () => {
       <div className="my-2 py-2">
         <Tree
           lineWidth={"2px"}
-          lineColor={"green"}
+          lineColor={"#662F87"}
           lineBorderRadius={"10px"}
           label={<StyledNode>Inaugural Session</StyledNode>}
         >
           <TreeNode label={<StyledNode>Keynote Speaker</StyledNode>}>
             <TreeNode
               label={
-                <StyledNode>
+                <StyledNode className="sm:w-48 w-36">
                   <img
-                    className=" h-48 aspect-square rounded-md object-cover object-center dark:bg-gray-500"
+                    className=" sm:h-48 h-30 aspect-square rounded-md object-cover object-center dark:bg-gray-500"
                     src={dinesh_Prashad}
                     alt={"Prof. Dinesh Prashad Saklani"}
                   />
@@ -152,9 +189,9 @@ const Speakers = () => {
           <TreeNode label={<StyledNode>Chief Guest</StyledNode>}>
             <TreeNode
               label={
-                <StyledNode className="w-48 ">
+                <StyledNode className="sm:w-48 w-40 ">
                   <img
-                    className=" h-48 aspect-square rounded-md object-cover object-center dark:bg-gray-500"
+                    className=" sm:h-48 h-30 aspect-square rounded-md object-cover object-center dark:bg-gray-500"
                     src={jitender}
                     alt={"Dr.Jitendra Singh"}
                   />
@@ -176,12 +213,38 @@ const Speakers = () => {
               }
             ></TreeNode>
           </TreeNode>
-          <TreeNode label={<StyledNode>Presided by</StyledNode>}></TreeNode>
+          <TreeNode label={<StyledNode>Presided by</StyledNode>}>
+          <TreeNode
+              label={
+                <StyledNode className="sm:w-48 w-40 ">
+                  <img
+                    className=" sm:h-48 h-30 aspect-square rounded-md object-cover object-center dark:bg-gray-500"
+                    src={balram}
+                    alt={"Prof. Balram Pani"}
+                  />
+                  <a
+                    href={"http://bcas.du.ac.in/wp-content/uploads/2019/12/FACULTY-PROFILE-Dr-Balaram-Pani-1.pdf"}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <h1 className="flex justify-center text-sm md:text-sm font-bold ">
+                      {"Prof. Balram Pani"}
+                    </h1>
+                    <p className="text-xs text-justify text-blue-800 font-semibold flex justify-center">
+                      {
+                        "Dean Colleges, University of Delhi"
+                      }
+                    </p>
+                  </a>
+                </StyledNode>
+              }
+            ></TreeNode>
+          </TreeNode>
         </Tree>
         <br />
         <Tree
           lineWidth={"2px"}
-          lineColor={"green"}
+          lineColor={"#662F87"}
           lineBorderRadius={"10px"}
           label={<StyledNode>Plenary Speakers</StyledNode>}
         >
@@ -292,7 +355,7 @@ const Speakers = () => {
         <br />
         <Tree
           lineWidth={"2px"}
-          lineColor={"green"}
+          lineColor={"#662F87"}
           lineBorderRadius={"10px"}
           label={<StyledNode>Invited Speakers</StyledNode>}
         >
