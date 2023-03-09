@@ -27,8 +27,16 @@ import styled from "@emotion/styled";
 const StyledNode = styled.div`
   padding: 5px;
   border-radius: 8px;
+  
   display: inline-block;
   border: 1px solid red;
+  flex-direction: row;
+  @media screen and (min-width: 415px){
+    .panel {
+      flex-direction: column;
+    }
+  }
+  
 `;
 const Speakers = () => {
   return (
@@ -157,14 +165,14 @@ const Speakers = () => {
           lineWidth={"2px"}
           lineColor={"#662F87"}
           lineBorderRadius={"10px"}
-          label={<StyledNode>Inaugural Session</StyledNode>}
+          label={<StyledNode className="font-bold">Inaugural Session</StyledNode>}
         >
-          <TreeNode label={<StyledNode>Keynote Speaker</StyledNode>}>
+          <TreeNode label={<StyledNode className="font-bold">Keynote Speaker</StyledNode>}>
             <TreeNode
               label={
-                <StyledNode className="sm:w-48 w-36">
+                <StyledNode className="sm:w-48 w-28">
                   <img
-                    className=" sm:h-48 h-30 aspect-square rounded-md object-cover object-center dark:bg-gray-500"
+                    className=" sm:h-48 h-24 aspect-square rounded-md object-cover object-center dark:bg-gray-500"
                     src={dinesh_Prashad}
                     alt={"Prof. Dinesh Prashad Saklani"}
                   />
@@ -186,12 +194,12 @@ const Speakers = () => {
               }
             />
           </TreeNode>
-          <TreeNode label={<StyledNode>Chief Guest</StyledNode>}>
+          <TreeNode label={<StyledNode className="font-bold">Chief Guest</StyledNode>}>
             <TreeNode
               label={
-                <StyledNode className="sm:w-48 w-40 ">
+                <StyledNode className="sm:w-48 w-28 ">
                   <img
-                    className=" sm:h-48 h-30 aspect-square rounded-md object-cover object-center dark:bg-gray-500"
+                    className=" sm:h-48 h-24 aspect-square rounded-md object-cover object-center dark:bg-gray-500"
                     src={jitender}
                     alt={"Dr.Jitendra Singh"}
                   />
@@ -213,12 +221,12 @@ const Speakers = () => {
               }
             ></TreeNode>
           </TreeNode>
-          <TreeNode label={<StyledNode>Presided by</StyledNode>}>
+          <TreeNode label={<StyledNode className="font-bold">Presided by</StyledNode>}>
             <TreeNode
               label={
-                <StyledNode className="sm:w-48 w-40 ">
+                <StyledNode className="sm:w-48 w-28 ">
                   <img
-                    className=" sm:h-48 h-30 aspect-square rounded-md object-cover object-center dark:bg-gray-500"
+                    className=" sm:h-48 h-24 aspect-square rounded-md object-cover object-center dark:bg-gray-500"
                     src={balram}
                     alt={"Prof. Balram Pani"}
                   />
@@ -246,13 +254,13 @@ const Speakers = () => {
           lineWidth={"2px"}
           lineColor={"#662F87"}
           lineBorderRadius={"10px"}
-          label={<StyledNode>Plenary Speakers</StyledNode>}
+          label={<StyledNode className="font-bold">Plenary Speakers</StyledNode>}
         >
           <TreeNode
             label={
-              <StyledNode className="w-48">
+              <StyledNode className="sm:w-48 w-20">
                 <img
-                  className=" h-48 aspect-square rounded-md object-cover object-center dark:bg-gray-500"
+                  className=" sm:h-48 h-20 aspect-square rounded-md object-cover object-center dark:bg-gray-500"
                   src={dinesh_singh}
                   alt={"Prof. Dinesh Singh"}
                 />
@@ -275,10 +283,10 @@ const Speakers = () => {
           ></TreeNode>
           <TreeNode
             label={
-              <StyledNode className="w-48">
+              <StyledNode className="sm:w-48 w-24">
                 {" "}
                 <img
-                  className=" h-48 aspect-square rounded-md object-cover object-center dark:bg-gray-500"
+                  className=" sm:h-48 h-24 aspect-square rounded-md object-cover object-center dark:bg-gray-500"
                   src={rajive}
                   alt={"Prof. Rajive Kumar"}
                 />
@@ -299,10 +307,10 @@ const Speakers = () => {
           ></TreeNode>
           <TreeNode
             label={
-              <StyledNode className="w-48">
-                Dr. Per-Arne Wikström
+              <StyledNode className="sm:w-48 w-20">
+               
                 <img
-                  className=" h-48 aspect-square rounded-md object-cover object-center dark:bg-gray-500"
+                  className=" sm:h-48 h-20 aspect-square rounded-md object-cover object-center dark:bg-gray-500"
                   src={per_arne}
                   alt={"Dr. Per-Arne Wikström"}
                 />
@@ -325,10 +333,10 @@ const Speakers = () => {
           ></TreeNode>
           <TreeNode
             label={
-              <StyledNode className="w-48">
+              <StyledNode className="sm:w-48 w-20">
                 {" "}
                 <img
-                  className=" h-48 aspect-square rounded-md object-cover object-center dark:bg-gray-500"
+                  className=" sm:h-48 h-20 aspect-square rounded-md object-cover object-center dark:bg-gray-500"
                   src={sonam_wangchuk}
                   alt={"Sonam Wangchuk"}
                 />
@@ -355,28 +363,29 @@ const Speakers = () => {
           lineWidth={"2px"}
           lineColor={"#662F87"}
           lineBorderRadius={"10px"}
-          label={<StyledNode>Invited Speakers</StyledNode>}
+          label={<StyledNode className="font-bold">Invited Speakers</StyledNode>}
         >
-          <TreeNode label={<StyledNode>Panel Discussion</StyledNode>}>
+          <TreeNode label={<StyledNode className="font-bold">Panel Discussion</StyledNode>}>
             {" "}
-            <TreeNode label={<StyledNode><a
-                    href={
-                      ""
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+            <TreeNode
+               class="panel" label={
+                <StyledNode>
+                  <a href={""} target="_blank" rel="noopener noreferrer">
                     <h1 className="flex justify-center text-sm md:text-sm font-bold ">
                       {"Prof Ashutosh Bhardwaj"}
                     </h1>
                     <p className="text-xs text-justify text-blue-800 font-semibold flex justify-center">
                       {"University of Delhi"}
                     </p>
-                  </a></StyledNode>} />
-                  <TreeNode label={<StyledNode><a
-                    href={
-                      "https://www.linkedin.com/in/tarun-singhal-2a61873/"
-                    }
+                  </a>
+                </StyledNode>
+              }
+            />
+            <TreeNode
+              label={
+                <StyledNode>
+                  <a
+                    href={"https://www.linkedin.com/in/tarun-singhal-2a61873/"}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -386,36 +395,42 @@ const Speakers = () => {
                     <p className="text-xs text-justify text-blue-800 font-semibold flex justify-center">
                       {"VP and Head of Engineering and R&D at Hughes Systique"}
                     </p>
-                  </a></StyledNode>} />
-                  <TreeNode label={<StyledNode><a
-                    href={
-                      ""
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  </a>
+                </StyledNode>
+              }
+            />
+            <TreeNode
+              label={
+                <StyledNode>
+                  <a href={""} target="_blank" rel="noopener noreferrer">
                     <h1 className="flex justify-center text-sm md:text-sm font-bold ">
                       {"Dr Pradeep"}
                     </h1>
                     <p className="text-xs text-justify text-blue-800 font-semibold flex justify-center">
                       {""}
                     </p>
-                  </a></StyledNode>} />
-                  <TreeNode label={<StyledNode><a
-                    href={
-                      ""
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  </a>
+                </StyledNode>
+              }
+            />
+            <TreeNode
+              label={
+                <StyledNode>
+                  <a href={""} target="_blank" rel="noopener noreferrer">
                     <h1 className="flex justify-center text-sm md:text-sm font-bold ">
                       {"Ms. Shipra Mishra"}
                     </h1>
                     <p className="text-xs text-justify text-blue-800 font-semibold flex justify-center">
                       {""}
                     </p>
-                  </a></StyledNode>} />
-                  <TreeNode label={<StyledNode><a
+                  </a>
+                </StyledNode>
+              }
+            />
+            <TreeNode
+              label={
+                <StyledNode>
+                  <a
                     href={
                       "https://www.icfi.nl/people/prof-dr-saradindu-bhaduri"
                     }
@@ -428,42 +443,41 @@ const Speakers = () => {
                     <p className="text-xs text-justify text-blue-800 font-semibold flex justify-center">
                       {"Centre for Studies in Science Policy, JNU"}
                     </p>
-                  </a></StyledNode>} />
-                  <TreeNode label={<StyledNode><a
-                    href={
-                      ""
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  </a>
+                </StyledNode>
+              }
+            />
+            <TreeNode
+              label={
+                <StyledNode>
+                  <a href={""} target="_blank" rel="noopener noreferrer">
                     <h1 className="flex justify-center text-sm md:text-sm font-bold ">
                       {"Prof Biswal"}
                     </h1>
                     <p className="text-xs text-justify text-blue-800 font-semibold flex justify-center">
                       {"Professor, CIC,DU"}
                     </p>
-                  </a></StyledNode>} />
-                  <TreeNode label={<StyledNode><a
-                    href={
-                      ""
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  </a>
+                </StyledNode>
+              }
+            />
+            <TreeNode
+              label={
+                <StyledNode>
+                  <a href={""} target="_blank" rel="noopener noreferrer">
                     <h1 className="flex justify-center text-sm md:text-sm font-bold ">
                       {"Mr Anirban"}
                     </h1>
                     <p className="text-xs text-justify text-blue-800 font-semibold flex justify-center">
                       {""}
                     </p>
-                  </a></StyledNode>} />
-
-
+                  </a>
+                </StyledNode>
+              }
+            />
           </TreeNode>
-            
-          
 
-          <TreeNode label={<StyledNode>Best Practices</StyledNode>}>
+          <TreeNode label={<StyledNode className="font-bold">Best Practices</StyledNode>}>
             <TreeNode
               label={
                 <StyledNode className="w-48">
@@ -490,7 +504,10 @@ const Speakers = () => {
                 </StyledNode>
               }
             />
-             <TreeNode label={<StyledNode><a
+            <TreeNode
+              label={
+                <StyledNode>
+                  <a
                     href={
                       "https://www.linkedin.com/in/purusharth-singh-951736a/"
                     }
@@ -503,7 +520,10 @@ const Speakers = () => {
                     <p className="text-xs text-justify text-blue-800 font-semibold flex justify-center">
                       {"Partner Kochar and Co."}
                     </p>
-                  </a></StyledNode>} />
+                  </a>
+                </StyledNode>
+              }
+            />
             <TreeNode
               label={
                 <StyledNode className="w-48">
@@ -535,17 +555,17 @@ const Speakers = () => {
         <br />
         <Tree
           lineWidth={"2px"}
-          lineColor={"green"}
+          lineColor={"#662F87"}
           lineBorderRadius={"10px"}
-          label={<StyledNode>Valedictory Session</StyledNode>}
+          label={<StyledNode className="font-bold">Valedictory Session</StyledNode>}
         >
-          <TreeNode label={<StyledNode>Guest of Honour</StyledNode>}>
+          <TreeNode label={<StyledNode className="font-bold">Guest of Honour</StyledNode>}>
             <TreeNode
               label={
-                <StyledNode className="w-48">
+                <StyledNode className="sm:w-48 w-28">
                   {" "}
                   <img
-                    className=" h-48 aspect-square rounded-md object-cover object-center dark:bg-gray-500"
+                    className=" sm:h-48 h-32 aspect-square rounded-md object-cover object-center dark:bg-gray-500"
                     src={saroj}
                     alt={"Prof. Saroj Sharma"}
                   />
@@ -567,13 +587,13 @@ const Speakers = () => {
               }
             />
           </TreeNode>
-          <TreeNode label={<StyledNode>Chief Guest</StyledNode>}>
+          <TreeNode label={<StyledNode className="font-bold">Chief Guest</StyledNode>}>
             <TreeNode
               label={
-                <StyledNode className="w-48">
+                <StyledNode className="sm:w-48 w-28">
                   {" "}
                   <img
-                    className=" h-48 aspect-square rounded-md object-cover object-center dark:bg-gray-500"
+                    className=" sm:h-48 h-32 aspect-square rounded-md object-cover object-center dark:bg-gray-500"
                     src={vinit}
                     alt={"Mr. Vineet Joshi"}
                   />
@@ -594,12 +614,12 @@ const Speakers = () => {
             />
           </TreeNode>
 
-          <TreeNode label={<StyledNode>Presided by</StyledNode>}>
+          <TreeNode label={<StyledNode className="font-bold">Presided by</StyledNode>}>
             <TreeNode
               label={
-                <StyledNode className="w-48">
+                <StyledNode className="sm:w-48 w-28">
                   <img
-                    className=" h-48 aspect-square rounded-md object-cover object-center dark:bg-gray-500"
+                    className=" sm:h-48 h-32 aspect-square rounded-md object-cover object-center dark:bg-gray-500"
                     src={yogesh}
                     alt={"Prof. Yogesh Singh"}
                   />
