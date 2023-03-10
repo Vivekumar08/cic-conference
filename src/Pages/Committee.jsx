@@ -13,7 +13,7 @@ const Committee = () => {
       className="h-fit flex flex-col justify-center items-center md:mb-12  md:mt-12"
       id="committee"
     >
-      <div className="font-bold text-3xl md:text-5xl justify-center flex mt-12">
+      <div className="font-bold text-lg md:text-5xl justify-center flex mt-12">
         Organizing Committee Members
       </div>
       <div class="inline-flex items-center justify-center mt-2 w-full">
