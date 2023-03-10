@@ -75,18 +75,18 @@ const Schedule = () => {
                   <h3 className="font-bold">Registration</h3>
                 </div>
                 <div className="text-black">
-                  <h3 className="font-bold">Inaugural Session (details of the Program)</h3>
+                  <h3 className="font-bold">Inaugural Session</h3>
                   <p>
-                    Chief Guest: Dr Jitendra Singh, MoS, Science and Technology,
-                    Govt. of India.
+                    <strong>Chief Guest: </strong> Dr Jitendra Singh, MoS,
+                    Science and Technology, Govt. of India.
                   </p>
                   <p>
-                    Guest of Honor: Prof. Dinesh Prasad Saklani, Director,
-                    NCERT, Delhi.
+                    <strong> Guest of Honor: </strong> Prof. Dinesh Prasad
+                    Saklani, Director, NCERT, Delhi.
                   </p>
                   <p>
-                    Persided by: Prof. Balram Pani, Dean of Colleges, University
-                    of Delhi.
+                    <strong> Persided by: </strong> Prof. Balram Pani, Dean of
+                    Colleges, University of Delhi.
                   </p>
                 </div>
                 <div className="text-black">
@@ -94,6 +94,11 @@ const Schedule = () => {
                 </div>
                 <div className="text-black">
                   <h3 className="font-bold">Plenary Session {"-"} I</h3>
+                  <p>
+                    {" "}
+                    <strong> Topic: </strong> Will degrees be relevant in 21
+                    <sup>st</sup> century?{" "}
+                  </p>
                   <p>
                     Prof. Dinesh Singh, Former Vice Chancellor, University of
                     Delhi.
@@ -145,10 +150,15 @@ const Schedule = () => {
               >
                 <div className="text-black">
                   <h3 className="font-bold">Plenary Session – II</h3>
+                  <p>
+                    Emerging Technologies and Innovations: A New Formal in
+                    Teaching and Learning
+                  </p>
                   <p>Prof. Rajive Kumar, Member Secretary, AICTE, Delhi.</p>
                 </div>
                 <div className="text-black">
                   <h3 className="font-bold">Plenary Session – III</h3>
+                  <p>Swedish Multiple Haelix Model Approach - PPP Model</p>
                   <p>
                     Dr. Per-Arne-Wikstrom, Counsellor- Innovation & Science
                     Embassy of Sweden.
@@ -158,15 +168,24 @@ const Schedule = () => {
                   <h3 className="font-bold">Tea</h3>
                 </div>
                 <div className="text-black">
-                  <h3 className="font-bold">
-                    Focused Group Discussion: Vision, Agenda, Concerns and Ideas
-                    on PPP Model in Higher Education.
-                  </h3>
+                  <h3 className="font-bold">Focused Group Discussion</h3>
+                  <p>
+                    Vision, Agenda, Concerns and Ideas on PPP Model in Higher
+                    Education.
+                  </p>
+                  <p>
+                    <strong>Chairperson: </strong>
+                    Dr. Parvinder Maini, Scientific Secretary, O/o PSA, GoI
+                  </p>
+                  <p>
+                    <strong>Moderator: </strong>
+                    Dr. Vikas Gupta, Registrar, University of Delhi
+                  </p>
                   <hr class="h-px my-2 bg-gray-800 border-0"></hr>
-                  <h3 className="font-bold">
-                    Oral presentation by participants
-                  </h3>
-                  <p>Venue: Conference Centre, DU</p>
+                  <h3 className="font-bold">Oral presentation</h3>
+                  <p>Group: 1</p>
+                  <p>Group: 2</p>
+                  <p>Group: 3</p>
                 </div>
                 <div className="text-black">
                   <h3 className="font-bold">Lunch</h3>
@@ -174,10 +193,9 @@ const Schedule = () => {
                 <div className="text-black">
                   <h3 className="font-bold">Plenary Session - IV</h3>
                   <p>Sonam Wangchuk, Innovator & Education Reformist.</p>
-                  <hr class=" my-2 h-px  bg-gray-800 border-0"></hr>
-                  <h3 className="font-bold">
-                    Oral presentation by participants
-                  </h3>
+                </div>
+                <div className="text-black">
+                  <h3 className="font-bold">Poster Presentations</h3>
                 </div>
                 <div className="text-black">
                   <h3 className="font-bold">Tea</h3>
@@ -186,6 +204,11 @@ const Schedule = () => {
                   <h3 className="font-bold">
                     Workshop on Writing CSR proposals – II
                   </h3>
+                  <p>
+                    Mr. Nikhil Pant, Former Chief Program Executive, National
+                    Foundation for CSR, IICA, Ministry of Corporate of Affairs,
+                    Govt. of Inida
+                  </p>
                 </div>
               </Chrono>
             </div>
@@ -219,13 +242,10 @@ const Schedule = () => {
                 items={Timeline_cont_day3}
               >
                 <div className="text-black">
-                  <div>
-                    <h3 className="font-bold">Plenary Session – V</h3>
-                    <p>Prof. L.S. Shashidhara, ISEAR, Pune.</p>
-                  </div>
-                  <hr class=" my-2 h-px  bg-gray-800 border-0"></hr>
-
-                  <h3 className="font-bold">Poster | Showcasing</h3>
+                  <h3 className="font-bold">Oral presentation</h3>
+                  <p>Group: 4</p>
+                  <p>Group: 5</p>
+                  <p>Group: 6</p>
                 </div>
                 <div className="text-black">
                   <h3 className="font-bold">Tea</h3>
@@ -233,6 +253,11 @@ const Schedule = () => {
                 <div className="text-black">
                   <h3 className="font-bold">Panel Discussion</h3>
                   <p>Bridging the gap between Academia & Industry</p>
+                  <p>
+                    <strong>Moderator: </strong>
+                    Prof. Ashutosh Bhardwaj, Dean, International Relations,
+                    University of Delhi
+                  </p>
                 </div>
                 <div className="text-black">
                   <h3 className="font-bold">Lunch</h3>
@@ -241,22 +266,40 @@ const Schedule = () => {
                   <h3 className="font-bold">
                     Best Practices from Industry and Academics
                   </h3>
+                  <ol className="list-decimal ml-4">
+                    <li>
+                      Dr. Anirbun Bandhopadhayay, KISS University Bhubaneswar
+                    </li>
+                    <li>
+                      Mr. Purushart Singh, Kochhar & Kochhar Law Firm, Delhi
+                    </li>
+                    <li>Dr. Alok Nikhil Jha, IIIT Delhi</li>
+                    <li>Dr. Radhika Trikha, IISc, Bengaluru</li>
+                    <li>Shiv Nadar {"(HCL team)"}</li>
+                  </ol>
                   <p>
-                    Presentations by representatives from Industry and Academia
+                    <strong>Session Chair: </strong>
+                    Dr. Ketaki Bapat, Scientist G, O/o PSA, GoI
+                  </p>
+                  <p>
+                    <strong>Co-Chair: </strong>
+                    Ms. Shipra Mishra, CEO, DRIIV
                   </p>
                 </div>
                 <div className="text-black">
                   <h3 className="font-bold">Valedictory Address</h3>
-                  <p>Chief Guest: Mr Vineet Joshi, Controller NTA.</p>
                   <p>
-                    Guest of Honor: Prof. Saroj Sharma Joshi, Chairperson, NIOS,
-                    Delhi.
+                    <strong>Chief Guest: </strong>
+                    Mr Vineet Joshi, Controller NTA.
                   </p>
                   <p>
-                    Presided by: Prof. Yogesh Singh (Vice-Chancellor, University
-                    of Delhi).
+                    <strong>Guest of Honor: </strong>
+                    Prof. Saroj Sharma Joshi, Chairperson, NIOS, Delhi.
                   </p>
-                  <p>Venue: Conference Centre, DU</p>
+                  <p>
+                    <strong>Presided by: </strong>
+                    Prof. Yogesh Singh (Vice-Chancellor, University of Delhi).
+                  </p>
                 </div>
                 <div className="text-black">
                   <h3 className="font-bold">High Tea</h3>
