@@ -387,13 +387,13 @@ const Speakers = () => {
               class="panel"
               label={
                 <StyledNode>
-                  <a href={"/"} >
-                  <h1 className="flex justify-center text-sm md:text-sm font-bold ">
-                    {"Prof Ashutosh Bhardwaj"}
-                  </h1>
-                  <p className="text-xs text-justify text-blue-800 font-semibold flex justify-center">
-                    {"University of Delhi"}
-                  </p>
+                  <a href={"/"}>
+                    <h1 className="flex justify-center text-sm md:text-sm font-bold ">
+                      {"Prof Ashutosh Bhardwaj"}
+                    </h1>
+                    <p className="text-xs text-justify text-blue-800 font-semibold flex justify-center">
+                      {"University of Delhi"}
+                    </p>
                   </a>
                 </StyledNode>
               }
@@ -419,13 +419,13 @@ const Speakers = () => {
             <TreeNode
               label={
                 <StyledNode>
-                  <a href={"/"} >
-                  <h1 className="flex justify-center text-sm md:text-sm font-bold ">
-                    {"Dr Pradeep"}
-                  </h1>
-                  <p className="text-xs text-justify text-blue-800 font-semibold flex justify-center">
-                    {""}
-                  </p>
+                  <a href={"/"}>
+                    <h1 className="flex justify-center text-sm md:text-sm font-bold ">
+                      {"Dr Pradeep"}
+                    </h1>
+                    <p className="text-xs text-justify text-blue-800 font-semibold flex justify-center">
+                      {""}
+                    </p>
                   </a>
                 </StyledNode>
               }
@@ -434,12 +434,12 @@ const Speakers = () => {
               label={
                 <StyledNode>
                   <a href={"/"}>
-                  <h1 className="flex justify-center text-sm md:text-sm font-bold ">
-                    {"Ms. Shipra Mishra"}
-                  </h1>
-                  <p className="text-xs text-justify text-blue-800 font-semibold flex justify-center">
-                    {""}
-                  </p>
+                    <h1 className="flex justify-center text-sm md:text-sm font-bold ">
+                      {"Ms. Shipra Mishra"}
+                    </h1>
+                    <p className="text-xs text-justify text-blue-800 font-semibold flex justify-center">
+                      {""}
+                    </p>
                   </a>
                 </StyledNode>
               }
@@ -468,12 +468,12 @@ const Speakers = () => {
               label={
                 <StyledNode>
                   <a href={"/"}>
-                  <h1 className="flex justify-center text-sm md:text-sm font-bold ">
-                    {"Prof Biswal"}
-                  </h1>
-                  <p className="text-xs text-justify text-blue-800 font-semibold flex justify-center">
-                    {"Professor, CIC,DU"}
-                  </p>
+                    <h1 className="flex justify-center text-sm md:text-sm font-bold ">
+                      {"Prof Biswal"}
+                    </h1>
+                    <p className="text-xs text-justify text-blue-800 font-semibold flex justify-center">
+                      {"Professor, CIC,DU"}
+                    </p>
                   </a>
                 </StyledNode>
               }
@@ -482,12 +482,12 @@ const Speakers = () => {
               label={
                 <StyledNode>
                   <a href={"/"}>
-                  <h1 className="flex justify-center text-sm md:text-sm font-bold ">
-                    {"Mr Anirban"}
-                  </h1>
-                  <p className="text-xs text-justify text-blue-800 font-semibold flex justify-center">
-                    {""}
-                  </p>
+                    <h1 className="flex justify-center text-sm md:text-sm font-bold ">
+                      {"Mr Anirban"}
+                    </h1>
+                    <p className="text-xs text-justify text-blue-800 font-semibold flex justify-center">
+                      {""}
+                    </p>
                   </a>
                 </StyledNode>
               }
