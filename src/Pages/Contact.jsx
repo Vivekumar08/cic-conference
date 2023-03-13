@@ -33,11 +33,13 @@ const Contact = () => {
                 </div>
               </div>
               <div className="cta-text text-[#e4e4e4]  text-sm">
-                <span>Cluster Innovation Centre, University of Delhi</span>
+                <span>
+                  Conference Centre, University of Delhi (North Campus)
+                </span>
               </div>
               <div className="mt-5">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.769250502355!2d77.21261156792303!3d28.6922528451807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd94c8b62999%3A0xae0071f78605288f!2sCluster%20Innovation%20Centre%2C%20University%20of%20Delhi!5e0!3m2!1sen!2sin!4v1675268169269!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.0666973106718!2d77.20809291508382!3d28.687651382396112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd93bd399ceb%3A0xa3a8e12fd0707e77!2sConference%20Centre%2C%20University%20of%20Delhi%20(North%20Campus)!5e0!3m2!1sen!2sin!4v1678670217916!5m2!1sen!2sin"
                   //   width="600"
                   height="250"
                   style={{ border: "0" }}

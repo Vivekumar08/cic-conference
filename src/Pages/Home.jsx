@@ -81,7 +81,7 @@ const Home = () => {
             className="text-white "
           />
           <span className="md:ml-5  text-sm lg:text-lg text-white">
-            Cluster Innovation Centre, University of Delhi, Delhi.
+            Conference Centre, University of Delhi (North Campus).
           </span>
         </div>
       </div>
